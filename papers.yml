@@ -6,6 +6,13 @@
 # type:     journal | proceedings | short
 # selected: 1..8  -> shown under Selected on the homepage, in this order
 # summary:  one sentence shown under a selected paper
+- title: 'AGENT-TTE: A Workflow-Guided, Retrieval-Grounded Agentic Framework for Target Trial Emulation Design'
+  authors: Chang T, Jiang Y, Zhang J, He X, Dai H, Bian J
+  venue: AEGIS Workshop at KDD
+  year: 2026
+  type: short
+  role: middle
+  line: rwe
 - title: Hyperglycosylation is a metabolic driver of Alzheimer’s disease
   authors: Hawkinson TR, Liu Z, Ribas RA, Medina T, Nielsen RS, Clarke HA, Ma X, Mueller AC, Plasencia AF, Sheer AL, Simpson ST, Soto CM, Sudderth J, Cai F, Cantrell AR, Colpaert MG, Shedlock CJ, Wu L,
     Young LEA, Kooser DD, Chen L, Ryan AM, Quinones S, Son J, Azadi P, Deberardinis RJ, Prokop S, Allison D, Yang S, Chen H, Huang Y, He X, Alonge KM, Guo J, Guo Y, Bian J, Vander Kooi CW, Gentry MS, Sun
