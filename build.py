@@ -51,6 +51,8 @@ def pub(p):
 
 order = {"journal": 0, "proceedings": 1, "short": 2}
 papers = sorted(P, key=lambda p: (-p["year"], order[p["type"]]))
+journal = [p for p in papers if p["type"] == "journal"]
+conference = [p for p in papers if p["type"] != "journal"]
 n_img = sum(1 for p in papers if p.get("image") and os.path.exists(p["image"]))
 
 block = f"""<h2 id="publications">Publications</h2>
@@ -63,7 +65,10 @@ block = f"""<h2 id="publications">Publications</h2>
 <button data-f="foundations">4 Foundations</button>
 <button data-f="workflow">5 Workflows</button></p>
 <div class="pub-list" id="publist">
-{chr(10).join(pub(p) for p in papers)}
+<h3 class="pub-group">Journal articles <span class="count">({len(journal)})</span></h3>
+{chr(10).join(pub(p) for p in journal)}
+<h3 class="pub-group">Conference papers <span class="count">({len(conference)})</span></h3>
+{chr(10).join(pub(p) for p in conference)}
 </div>
 <script>
 (function(){{
@@ -72,6 +77,9 @@ block = f"""<h2 id="publications">Publications</h2>
     const f=btn.dataset.f;
     bar.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b===btn));
     list.querySelectorAll('.pub').forEach(el=>{{el.hidden=!!f&&el.dataset.line!==f;}});
+    list.querySelectorAll('.pub-group').forEach(h=>{{let n=h.nextElementSibling,c=0;
+      while(n&&!n.classList.contains('pub-group')){{if(n.classList.contains('pub')&&!n.hidden)c++;n=n.nextElementSibling;}}
+      h.hidden=c===0; h.querySelector('.count').textContent='('+c+')';}});
   }}));
 }})();
 </script>"""
