@@ -402,7 +402,6 @@
   type: journal
   role: middle
   line: workflow
-  summary: Uses machine learning on CT scans and clinical data to classify kidney tumors as benign or malignant.
 - title: A Computable Phenotype for the Identification of Sexual and Gender Minorities in Electronic Health Records
   authors: Li Y, He X, Wheldon C, Wu Y, Prosperi M, Shenkman EA, Jaffee MS, Guo J, Wang F, Guo Y, Bian J
   venue: AMIA Annual Symposium
@@ -544,7 +543,6 @@
   type: proceedings
   role: middle
   line: workflow
-  summary: Examines public perceptions and attitudes toward genetically modified organisms as expressed in posts on the social media platform Twitter.
 - title: 'ALOHA: developing an interactive graph-based visualization for dietary supplement knowledge graph through user-centered design'
   authors: He X, Zhang R, Rizvi R, Vasilakes J, Yang X, Guo Y, He Z, Prosperi M, Huo J, Alpert J, Bian J
   venue: BMC Med Inform Decis Mak
@@ -572,7 +570,6 @@
   type: proceedings
   role: middle
   line: foundations
-  summary: Describes Aero, an evidence-based knowledge base of behavioral risk factors for cancer built with semantic web technologies.
 - title: Towards an Interactive Visualization for Dietary Supplement Knowledge Graph
   authors: He X, Bian J
   venue: IEEE ICHI
@@ -581,7 +578,6 @@
   type: short
   role: first
   line: foundations
-  summary: Describes work toward an interactive visualization that lets users explore a knowledge graph of dietary supplement information.
 - title: 'Computable Eligibility Criteria through Ontology-driven Data Access: A Case Study of Hepatitis C Virus Trials'
   authors: Zhang H, He Z, He X, Guo Y, Nelson DR, Modave F, Wu Y, Hogan W, Prosperi M, Bian J
   venue: AMIA Annual Symposium
