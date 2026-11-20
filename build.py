@@ -2,13 +2,16 @@
 """Rebuild the Publications section of index.html from papers.yml.
 
     python3 build.py
+
+Each paper may have an optional `image:` (path under images/thumbs/) and `summary:`.
 """
-import html, re, yaml
-from collections import OrderedDict
+import html, os, re, yaml
 
 ME = "He X"
 P = yaml.safe_load(open("papers.yml"))
 esc = html.escape
+SCHOLAR = "https://scholar.google.com/citations?user=LN0Utm0AAAAJ&amp;hl=en"
+ORCID = "https://orcid.org/0000-0003-0290-8058"
 
 
 def authors(p):
@@ -25,54 +28,50 @@ def authors(p):
     return ", ".join(f'<span class="me">He X{mark}</span>' if n == ME else esc(n) for n in names)
 
 
-def pub(p, summary=False):
+def pub(p):
     tag = ' <span class="tag">short paper</span>' if p["type"] == "short" else ""
-    out = [f'<div class="pub" data-line="{p.get("line","")}"><div class="t">{esc(p["title"])}</div>',
-           f'<div class="a">{authors(p)}</div>',
-           f'<div class="v">{esc(p["venue"])}, {p["year"]}{tag}</div>']
-    if summary and p.get("summary"):
-        out.append(f'<p class="s">{esc(p["summary"])}</p>')
+    title = esc(p["title"])
     if p.get("url"):
-        out.append(f'<div class="l"><a href="{esc(p["url"])}">Paper</a></div>')
-    return "\n".join(out) + "</div>"
+        title = f'<a href="{esc(p["url"])}">{title}</a>'
+    img = p.get("image")
+    media = ""
+    if img and os.path.exists(img):
+        media = f'<div class="pub-media"><img src="{esc(img)}" alt="" loading="lazy" decoding="async"></div>\n'
+    body = [f'<div class="t">{title}</div>',
+            f'<div class="a">{authors(p)}</div>',
+            f'<div class="v">{esc(p["venue"])}, {p["year"]}{tag}</div>']
+    if p.get("summary"):
+        body.append(f'<p class="s">{esc(p["summary"])}</p>')
+    if p.get("url"):
+        body.append(f'<div class="l"><a href="{esc(p["url"])}">Paper</a></div>')
+    cls = "pub has-media" if media else "pub"
+    return (f'<article class="{cls}" data-line="{p.get("line","")}">\n{media}'
+            f'<div class="pub-body">\n' + "\n".join(body) + "\n</div></article>")
 
 
-sel = sorted([p for p in P if p.get("selected")], key=lambda p: p["selected"])
-by_year = OrderedDict()
-for p in sorted(P, key=lambda p: (-p["year"], {"journal": 0, "proceedings": 1, "short": 2}[p["type"]])):
-    by_year.setdefault(p["year"], []).append(p)
-
-full = []
-for y, ps in by_year.items():
-    full.append(f'<div class="year">{y}</div>')
-    full += [pub(p) for p in ps]
+order = {"journal": 0, "proceedings": 1, "short": 2}
+papers = sorted(P, key=lambda p: (-p["year"], order[p["type"]]))
+n_img = sum(1 for p in papers if p.get("image") and os.path.exists(p["image"]))
 
 block = f"""<h2 id="publications">Publications</h2>
-<p class="note">Selected · * co-first author, † senior author · full list also on <a href="https://scholar.google.com/citations?user=LN0Utm0AAAAJ&amp;hl=en">Google Scholar</a> and <a href="https://orcid.org/0000-0003-0290-8058">ORCID</a></p>
-
-{chr(10).join(pub(p, summary=True) for p in sel)}
-
-<details id="allpubs">
-<summary>Show all {len(P)} publications</summary>
-<p class="filters">Filter:
+<p class="note">* co-first author, † senior author · also on <a href="{SCHOLAR}">Google Scholar</a> and <a href="{ORCID}">ORCID</a></p>
+<p class="filters" id="pubfilters">Filter:
 <button data-f="" aria-pressed="true">All</button>
 <button data-f="nlp">1 Clinical record</button>
 <button data-f="trials">2 Trials</button>
 <button data-f="rwe">3 Causal evidence</button>
 <button data-f="foundations">4 Foundations</button>
 <button data-f="workflow">5 Workflows</button></p>
-{chr(10).join(full)}
-</details>
+<div class="pub-list" id="publist">
+{chr(10).join(pub(p) for p in papers)}
+</div>
 <script>
 (function(){{
-  const box=document.getElementById('allpubs'); if(!box) return;
-  box.querySelectorAll('.filters button').forEach(btn=>btn.addEventListener('click',()=>{{
+  const bar=document.getElementById('pubfilters'), list=document.getElementById('publist'); if(!bar||!list) return;
+  bar.querySelectorAll('button').forEach(btn=>btn.addEventListener('click',()=>{{
     const f=btn.dataset.f;
-    box.querySelectorAll('.filters button').forEach(b=>b.setAttribute('aria-pressed',b===btn));
-    box.querySelectorAll('.pub').forEach(el=>{{el.hidden=!!f&&el.dataset.line!==f;}});
-    box.querySelectorAll('.year').forEach(y=>{{let n=y.nextElementSibling,any=false;
-      while(n&&!n.classList.contains('year')){{if(n.classList.contains('pub')&&!n.hidden)any=true;n=n.nextElementSibling;}}
-      y.hidden=!any;}});
+    bar.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b===btn));
+    list.querySelectorAll('.pub').forEach(el=>{{el.hidden=!!f&&el.dataset.line!==f;}});
   }}));
 }})();
 </script>"""
@@ -81,4 +80,4 @@ idx = open("index.html").read()
 idx = re.sub(r"<!-- PUBS:START -->.*?<!-- PUBS:END -->",
              lambda m: f"<!-- PUBS:START -->\n{block}\n<!-- PUBS:END -->", idx, flags=re.S)
 open("index.html", "w").write(idx)
-print(f"index.html: {len(sel)} selected, {len(P)} total")
+print(f"index.html: {len(papers)} papers, {n_img} with figures")

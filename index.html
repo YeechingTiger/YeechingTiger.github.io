@@ -121,312 +121,467 @@ agentic ontology and knowledge-graph engineering; semantic standards and tools f
 
 <!-- PUBS:START -->
 <h2 id="publications">Publications</h2>
-<p class="note">Selected · * co-first author, † senior author · full list also on <a href="https://scholar.google.com/citations?user=LN0Utm0AAAAJ&amp;hl=en">Google Scholar</a> and <a href="https://orcid.org/0000-0003-0290-8058">ORCID</a></p>
-
-<div class="pub" data-line="foundations"><div class="t">Develop and validate a computable phenotype for the identification of Alzheimer’s disease patients using electronic health record data</div>
-<div class="a"><span class="me">He X*</span>, Wei R, Huang Y, Chen Z, Lyu T, Bost S, …, Bian J</div>
-<div class="v">Alzheimers Dement (Amst), 2024</div>
-<p class="s">Develops a computable phenotype that identifies Alzheimer&#x27;s disease patients in EHR data and validates it against chart review.</p>
-<div class="l"><a href="https://doi.org/10.1002/dad2.12613">Paper</a></div></div>
-<div class="pub" data-line="nlp"><div class="t">Automating Lung-RADS Categorization And Follow-Up Recommendations Using In-Context Learning With Large Language Models</div>
-<div class="a">Zhou T, Chen A, Hu Y, Lou X, <span class="me">He X</span>, Huang Y, Hochhegger B, Mehta H, Prosperi M, Guo Y, Bian J</div>
-<div class="v">AMIA Annual Symposium, 2025</div>
-<p class="s">Uses large language models with in-context learning to assign Lung-RADS categories and follow-up recommendations from lung cancer screening reports.</p>
-<div class="l"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919574/">Paper</a></div></div>
-<div class="pub" data-line="foundations"><div class="t">Harmonizing Medicare Claims Data with OMOP: A Validated ETL Pipeline</div>
-<div class="a">Lee YA, Lu Y, Bian J, Guo JS, <span class="me">He X†</span></div>
-<div class="v">AMIA Annual Symposium, 2025</div>
-<p class="s">A validated pipeline that converts Medicare claims to the OMOP Common Data Model for multi-source real-world studies.</p>
-<div class="l"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919608/">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Toward Integrating Machine Learning-powered Polysocial Risk Scores into Electronic Health Record Workflows</div>
-<div class="a"><span class="me">He X</span>, Huang Y, Hu Y, Pappa M, Miller N, Gregory ME, Guo JS, Bian J</div>
-<div class="v">AMIA Annual Symposium, 2025</div>
-<p class="s">How to move a machine-learning social risk score from a research model into clinicians&#x27; EHR workflow.</p>
-<div class="l"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919456/">Paper</a></div></div>
-<div class="pub" data-line="rwe"><div class="t">Assessing the quality of electronic health record data and the claims linked data for target trial emulation studies</div>
-<div class="a">Lee YA, Lu Y, Morris EJ, <span class="me">He X</span>, Winterstein AG, Henriksen C, Bian J, Guo J</div>
-<div class="v">JAMIA Open, 2026</div>
-<p class="s">A framework for checking whether EHR and linked claims data are fit to support a target trial emulation.</p>
-<div class="l"><a href="https://doi.org/10.1093/jamiaopen/ooag102">Paper</a></div></div>
-<div class="pub" data-line="trials"><div class="t">Clinical Trial Eligibility Criteria Decomposition and Parsing with Large Language Models</div>
-<div class="a">Chen H, Qian L, <span class="me">He X</span>, Chen A, Huang Y, Gou Q, …, Bian J</div>
-<div class="v">MEDINFO, 2025</div>
-<p class="s">Uses large language models to break free-text trial eligibility criteria into structured, computable pieces.</p>
-<div class="l"><a href="https://doi.org/10.3233/shti250928">Paper</a></div></div>
-<div class="pub" data-line="nlp"><div class="t">Enhancing medical coding efficiency through domain-specific fine-tuned large language models</div>
-<div class="a">Hou Z, Liu H, Bian J, <span class="me">He X</span>, Zhuang Y</div>
-<div class="v">Npj Health Syst, 2025</div>
-<p class="s">Fine-tunes large language models on domain data to make medical coding from clinical text faster.</p>
-<div class="l"><a href="https://doi.org/10.1038/s44401-025-00018-3">Paper</a></div></div>
-<div class="pub" data-line="rwe"><div class="t">Causal inference and counterfactual prediction in machine learning for actionable healthcare</div>
-<div class="a">Prosperi M, Guo Y, Sperrin M, Koopman JS, Min JS, <span class="me">He X</span>, Rich S, Wang M, Buchan IE, Bian J</div>
-<div class="v">Nature Machine Intelligence, 2020</div>
-<p class="s">Argues that prediction models need causal reasoning before they can guide clinical decisions.</p>
-<div class="l"><a href="https://doi.org/10.1038/s42256-020-0197-y">Paper</a></div></div>
-
-<details id="allpubs">
-<summary>Show all 60 publications</summary>
-<p class="filters">Filter:
+<p class="note">* co-first author, † senior author · also on <a href="https://scholar.google.com/citations?user=LN0Utm0AAAAJ&amp;hl=en">Google Scholar</a> and <a href="https://orcid.org/0000-0003-0290-8058">ORCID</a></p>
+<p class="filters" id="pubfilters">Filter:
 <button data-f="" aria-pressed="true">All</button>
 <button data-f="nlp">1 Clinical record</button>
 <button data-f="trials">2 Trials</button>
 <button data-f="rwe">3 Causal evidence</button>
 <button data-f="foundations">4 Foundations</button>
 <button data-f="workflow">5 Workflows</button></p>
-<div class="year">2026</div>
-<div class="pub" data-line="rwe"><div class="t">Hyperglycosylation is a metabolic driver of Alzheimer’s disease</div>
+<div class="pub-list" id="publist">
+<article class="pub has-media" data-line="rwe">
+<div class="pub-media"><img src="images/thumbs/hyperglycosylation-is-a-metabolic-driver-of-alzhei.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1038/s42255-026-01538-4">Hyperglycosylation is a metabolic driver of Alzheimer’s disease</a></div>
 <div class="a">Hawkinson TR, Liu Z, Ribas RA, Medina T, Nielsen RS, Clarke HA, …, <span class="me">He X</span>, …, Sun RC</div>
 <div class="v">Nat Metab, 2026</div>
-<div class="l"><a href="https://doi.org/10.1038/s42255-026-01538-4">Paper</a></div></div>
-<div class="pub" data-line="foundations"><div class="t">Identifying Alzheimer’s Disease Progression Subphenotypes Via a Graph-based Framework Using Electronic Health Records</div>
+<div class="l"><a href="https://doi.org/10.1038/s42255-026-01538-4">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="foundations">
+<div class="pub-media"><img src="images/thumbs/identifying-alzheimer-s-disease-progression-subphe.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1007/s41666-026-00230-2">Identifying Alzheimer’s Disease Progression Subphenotypes Via a Graph-based Framework Using Electronic Health Records</a></div>
 <div class="a">Huang Y, Xu J, Fan Z, Hu Y, <span class="me">He X</span>, Chen A, …, Bian J</div>
 <div class="v">J Healthc Inform Res, 2026</div>
-<div class="l"><a href="https://doi.org/10.1007/s41666-026-00230-2">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">The spatial and contextual exposome and subtypes of hypertensive disorders of pregnancy: a double machine learning-based analysis</div>
+<div class="l"><a href="https://doi.org/10.1007/s41666-026-00230-2">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="workflow">
+<div class="pub-media"><img src="images/thumbs/the-spatial-and-contextual-exposome-and-subtypes-o.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1093/exposome/osag009">The spatial and contextual exposome and subtypes of hypertensive disorders of pregnancy: a double machine learning-based analysis</a></div>
 <div class="a">Hu H, Leiser CL, <span class="me">He X</span>, Hart JE, Laden F, Tao C, Bian J</div>
 <div class="v">Exposome, 2026</div>
-<div class="l"><a href="https://doi.org/10.1093/exposome/osag009">Paper</a></div></div>
-<div class="pub" data-line="rwe"><div class="t">Real-World Effectiveness and Safety of GLP-1 Receptor Agonists Among Patients With Weight Recurrence After Bariatric Surgery</div>
+<div class="l"><a href="https://doi.org/10.1093/exposome/osag009">Paper</a></div>
+</div></article>
+<article class="pub" data-line="rwe">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1002/oby.70280">Real-World Effectiveness and Safety of GLP-1 Receptor Agonists Among Patients With Weight Recurrence After Bariatric Surgery</a></div>
 <div class="a">Yuce T, Radwan RM, Lee YA, Holler E, Dai H, <span class="me">He X</span>, Huang Y, Guo Y, Bian J, Guo J</div>
 <div class="v">Obesity (Silver Spring), 2026</div>
-<div class="l"><a href="https://doi.org/10.1002/oby.70280">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Adaptation of a fair individualized polysocial risk score for hospitalization risk prediction</div>
+<div class="l"><a href="https://doi.org/10.1002/oby.70280">Paper</a></div>
+</div></article>
+<article class="pub" data-line="workflow">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1093/jamiaopen/ooag161">Adaptation of a fair individualized polysocial risk score for hospitalization risk prediction</a></div>
 <div class="a">Gou Q, Hu Y, <span class="me">He X</span>, Gregory ME, LeLaurin JH, Salloum RG, Bian J, Guo J, Huang Y</div>
 <div class="v">JAMIA Open, 2026</div>
-<div class="l"><a href="https://doi.org/10.1093/jamiaopen/ooag161">Paper</a></div></div>
-<div class="pub" data-line="rwe"><div class="t">Assessing the quality of electronic health record data and the claims linked data for target trial emulation studies</div>
+<div class="l"><a href="https://doi.org/10.1093/jamiaopen/ooag161">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="rwe">
+<div class="pub-media"><img src="images/thumbs/assessing-the-quality-of-electronic-health-record.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1093/jamiaopen/ooag102">Assessing the quality of electronic health record data and the claims linked data for target trial emulation studies</a></div>
 <div class="a">Lee YA, Lu Y, Morris EJ, <span class="me">He X</span>, Winterstein AG, Henriksen C, Bian J, Guo J</div>
 <div class="v">JAMIA Open, 2026</div>
-<div class="l"><a href="https://doi.org/10.1093/jamiaopen/ooag102">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Co-designing an Outpatient Clinical Decision Support Prototype for Managing Social Risks in Patients Living with Dementia</div>
+<p class="s">A framework for checking whether EHR and linked claims data are fit to support a target trial emulation.</p>
+<div class="l"><a href="https://doi.org/10.1093/jamiaopen/ooag102">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="workflow">
+<div class="pub-media"><img src="images/thumbs/co-designing-an-outpatient-clinical-decision-suppo.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1055/a-2917-6503">Co-designing an Outpatient Clinical Decision Support Prototype for Managing Social Risks in Patients Living with Dementia</a></div>
 <div class="a">Alfaqih MA, Haessner P, LeLaurin JH, Guo J, Hammer NC, Ike-Okpe O, Pappa MJ, <span class="me">He X</span>, Salloum RG, Bian J, Gregory ME</div>
 <div class="v">Appl Clin Inform, 2026</div>
-<div class="l"><a href="https://doi.org/10.1055/a-2917-6503">Paper</a></div></div>
-<div class="pub" data-line="rwe"><div class="t">Feasibility of identifying factors related to Alzheimer’s disease and related dementia in real-world data</div>
+<div class="l"><a href="https://doi.org/10.1055/a-2917-6503">Paper</a></div>
+</div></article>
+<article class="pub" data-line="rwe">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1093/jamiaopen/ooag060">Feasibility of identifying factors related to Alzheimer’s disease and related dementia in real-world data</a></div>
 <div class="a">Huang Y, Li Q, Chen A, Li Y, Chuang YN, Hu X, …, <span class="me">He X</span>, …, Bian J</div>
 <div class="v">JAMIA Open, 2026</div>
-<div class="l"><a href="https://doi.org/10.1093/jamiaopen/ooag060">Paper</a></div></div>
-<div class="pub" data-line="rwe"><div class="t">Real-world mortality and the effect of comorbidities on survival in glioblastoma: A database study using computed phenotypes for rapid, reliable patient identification</div>
+<div class="l"><a href="https://doi.org/10.1093/jamiaopen/ooag060">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="rwe">
+<div class="pub-media"><img src="images/thumbs/real-world-mortality-and-the-effect-of-comorbiditi.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1093/noajnl/vdag098">Real-world mortality and the effect of comorbidities on survival in glioblastoma: A database study using computed phenotypes for rapid, reliable patient identification</a></div>
 <div class="a">Wei R, Still MEH, Moor RSF, Qin X, Lyu T, Yan S, …, <span class="me">He X</span>, …, Ghiaseddin AP</div>
 <div class="v">Neurooncol Adv, 2026</div>
-<div class="l"><a href="https://doi.org/10.1093/noajnl/vdag098">Paper</a></div></div>
-<div class="pub" data-line="foundations"><div class="t">Develop and validate a computable phenotype for identifying alcohol-use disorder patients using structure and unstructured EHR data</div>
+<div class="l"><a href="https://doi.org/10.1093/noajnl/vdag098">Paper</a></div>
+</div></article>
+<article class="pub" data-line="foundations">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1093/alcalc/agaf086">Develop and validate a computable phenotype for identifying alcohol-use disorder patients using structure and unstructured EHR data</a></div>
 <div class="a">Dai H, Tapper EB, Zhao L, Scheiffele GD, Li X, Ramon R, <span class="me">He X</span>, Lee YA, Guo J, Bian J</div>
 <div class="v">Alcohol Alcohol, 2026</div>
-<div class="l"><a href="https://doi.org/10.1093/alcalc/agaf086">Paper</a></div></div>
-<div class="pub" data-line="rwe"><div class="t">AGENT-TTE: A Workflow-Guided, Retrieval-Grounded Agentic Framework for Target Trial Emulation Design</div>
+<div class="l"><a href="https://doi.org/10.1093/alcalc/agaf086">Paper</a></div>
+</div></article>
+<article class="pub" data-line="rwe">
+<div class="pub-body">
+<div class="t">AGENT-TTE: A Workflow-Guided, Retrieval-Grounded Agentic Framework for Target Trial Emulation Design</div>
 <div class="a">Chang T, Jiang Y, Zhang J, <span class="me">He X</span>, Dai H, Bian J</div>
-<div class="v">AEGIS Workshop at KDD, 2026 <span class="tag">short paper</span></div></div>
-<div class="year">2025</div>
-<div class="pub" data-line="rwe"><div class="t">Estimation of prevalence of autoimmune diseases in the United States using electronic health record data</div>
+<div class="v">AEGIS Workshop at KDD, 2026 <span class="tag">short paper</span></div>
+</div></article>
+<article class="pub has-media" data-line="rwe">
+<div class="pub-media"><img src="images/thumbs/estimation-of-prevalence-of-autoimmune-diseases-in.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1172/jci178722">Estimation of prevalence of autoimmune diseases in the United States using electronic health record data</a></div>
 <div class="a">Abend AH, He I, Bahroos N, Christianakis S, Crew AB, Wise LM, …, <span class="me">He X</span>, …, Fairweather D</div>
 <div class="v">J Clin Invest, 2025</div>
-<div class="l"><a href="https://doi.org/10.1172/jci178722">Paper</a></div></div>
-<div class="pub" data-line="nlp"><div class="t">Enhancing medical coding efficiency through domain-specific fine-tuned large language models</div>
+<div class="l"><a href="https://doi.org/10.1172/jci178722">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="nlp">
+<div class="pub-media"><img src="images/thumbs/enhancing-medical-coding-efficiency-through-domain.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1038/s44401-025-00018-3">Enhancing medical coding efficiency through domain-specific fine-tuned large language models</a></div>
 <div class="a">Hou Z, Liu H, Bian J, <span class="me">He X</span>, Zhuang Y</div>
 <div class="v">Npj Health Syst, 2025</div>
-<div class="l"><a href="https://doi.org/10.1038/s44401-025-00018-3">Paper</a></div></div>
-<div class="pub" data-line="rwe"><div class="t">Glycogen drives tumour initiation and progression in lung adenocarcinoma</div>
+<p class="s">Fine-tunes large language models on domain data to make medical coding from clinical text faster.</p>
+<div class="l"><a href="https://doi.org/10.1038/s44401-025-00018-3">Paper</a></div>
+</div></article>
+<article class="pub" data-line="rwe">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1038/s42255-025-01243-8">Glycogen drives tumour initiation and progression in lung adenocarcinoma</a></div>
 <div class="a">Clarke HA, Hawkinson TR, Shedlock CJ, Medina T, Ribas RA, Wu L, …, <span class="me">He X</span>, …, Sun RC</div>
 <div class="v">Nat Metab, 2025</div>
-<div class="l"><a href="https://doi.org/10.1038/s42255-025-01243-8">Paper</a></div></div>
-<div class="pub" data-line="trials"><div class="t">Enhancing Patient-Trial Matching With Large Language Models: A Scoping Review of Emerging Applications and Approaches</div>
+<div class="l"><a href="https://doi.org/10.1038/s42255-025-01243-8">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="trials">
+<div class="pub-media"><img src="images/thumbs/enhancing-patient-trial-matching-with-large-langua.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1200/cci-25-00071">Enhancing Patient-Trial Matching With Large Language Models: A Scoping Review of Emerging Applications and Approaches</a></div>
 <div class="a">Chen H, Li X, <span class="me">He X</span>, Chen A, McGill J, Webber EC, Xu H, Liu M, Bian J</div>
 <div class="v">JCO Clin Cancer Inform, 2025</div>
-<div class="l"><a href="https://doi.org/10.1200/cci-25-00071">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Mobile Health App for Adolescent Asthma Self-Management: Development and Usability Study of the Pulmonary Education and Knowledge Mobile Asthma Action Plan</div>
+<div class="l"><a href="https://doi.org/10.1200/cci-25-00071">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="workflow">
+<div class="pub-media"><img src="images/thumbs/mobile-health-app-for-adolescent-asthma-self-manag.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.2196/64212">Mobile Health App for Adolescent Asthma Self-Management: Development and Usability Study of the Pulmonary Education and Knowledge Mobile Asthma Action Plan</a></div>
 <div class="a"><span class="me">He X</span>, Bian J, Berlinski A, Guo Y, Simmons AL, Marshall SA, Greene CJ, Brown RH, Turner J, Perry TT</div>
 <div class="v">JMIR Form Res, 2025</div>
-<div class="l"><a href="https://doi.org/10.2196/64212">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">GatorCLR: Personalized predictions of patient outcomes on electronic health records using self-supervised contrastive graph representation</div>
+<div class="l"><a href="https://doi.org/10.2196/64212">Paper</a></div>
+</div></article>
+<article class="pub" data-line="workflow">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1016/j.jbi.2025.104851">GatorCLR: Personalized predictions of patient outcomes on electronic health records using self-supervised contrastive graph representation</a></div>
 <div class="a">Liu Y, Zhang Z, Mi J, Pan S, Chen T, Guo Y, <span class="me">He X</span>, Bian J</div>
 <div class="v">J Biomed Inform, 2025</div>
-<div class="l"><a href="https://doi.org/10.1016/j.jbi.2025.104851">Paper</a></div></div>
-<div class="pub" data-line="nlp"><div class="t">From image to report: automating lung cancer screening interpretation and reporting with vision-language models</div>
+<div class="l"><a href="https://doi.org/10.1016/j.jbi.2025.104851">Paper</a></div>
+</div></article>
+<article class="pub" data-line="nlp">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1016/j.jbi.2025.104931">From image to report: automating lung cancer screening interpretation and reporting with vision-language models</a></div>
 <div class="a">Chang TY, Gou Q, Zhao L, Zhou T, Chen H, Yang D, …, <span class="me">He X</span>, …, Chen A</div>
 <div class="v">J Biomed Inform, 2025</div>
-<div class="l"><a href="https://doi.org/10.1016/j.jbi.2025.104931">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Optimizing Strategy for Lung Cancer Screening: From Risk Prediction to Clinical Decision Support</div>
+<div class="l"><a href="https://doi.org/10.1016/j.jbi.2025.104931">Paper</a></div>
+</div></article>
+<article class="pub" data-line="workflow">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1200/cci-24-00291">Optimizing Strategy for Lung Cancer Screening: From Risk Prediction to Clinical Decision Support</a></div>
 <div class="a">Dai H, Huang Y, <span class="me">He X</span>, Zhou T, Liu Y, Zhang X, Guo Y, Guo J, Bian J</div>
 <div class="v">JCO Clin Cancer Inform, 2025</div>
-<div class="l"><a href="https://doi.org/10.1200/cci-24-00291">Paper</a></div></div>
-<div class="pub" data-line="rwe"><div class="t">COLA-GLM: collaborative one-shot and lossless algorithms of generalized linear models for decentralized observational healthcare data</div>
+<div class="l"><a href="https://doi.org/10.1200/cci-24-00291">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="rwe">
+<div class="pub-media"><img src="images/thumbs/cola-glm-collaborative-one-shot-and-lossless-algor.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1038/s41746-025-01781-1">COLA-GLM: collaborative one-shot and lossless algorithms of generalized linear models for decentralized observational healthcare data</a></div>
 <div class="a">Wu Q, Reps JM, Li L, Zhang B, Lu Y, Tong J, …, <span class="me">He X</span>, …, Chen Y</div>
 <div class="v">NPJ Digit Med, 2025</div>
-<div class="l"><a href="https://doi.org/10.1038/s41746-025-01781-1">Paper</a></div></div>
-<div class="pub" data-line="rwe"><div class="t">A communication-efficient federated learning algorithm to assess racial disparities in post-transplantation survival time</div>
+<div class="l"><a href="https://doi.org/10.1038/s41746-025-01781-1">Paper</a></div>
+</div></article>
+<article class="pub" data-line="rwe">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1093/jamia/ocaf138">A communication-efficient federated learning algorithm to assess racial disparities in post-transplantation survival time</a></div>
 <div class="a">Wang Y, Zhang D, Tong J, <span class="me">He X</span>, Li L, Sun L, Shukla AM, Bian J, Asch DA, Chen Y</div>
 <div class="v">J Am Med Inform Assoc, 2025</div>
-<div class="l"><a href="https://doi.org/10.1093/jamia/ocaf138">Paper</a></div></div>
-<div class="pub" data-line="rwe"><div class="t">Unlocking efficiency in real-world collaborative studies: a multi-site international study with one-shot lossless GLMM algorithm</div>
+<div class="l"><a href="https://doi.org/10.1093/jamia/ocaf138">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="rwe">
+<div class="pub-media"><img src="images/thumbs/unlocking-efficiency-in-real-world-collaborative-s.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1038/s41746-025-01846-1">Unlocking efficiency in real-world collaborative studies: a multi-site international study with one-shot lossless GLMM algorithm</a></div>
 <div class="a">Tong J, Reps JM, Luo C, Lu Y, Li L, Ramirez-Anguita JM, …, <span class="me">He X</span>, …, Chen Y</div>
 <div class="v">NPJ Digit Med, 2025</div>
-<div class="l"><a href="https://doi.org/10.1038/s41746-025-01846-1">Paper</a></div></div>
-<div class="pub" data-line="rwe"><div class="t">Variational temporal deconfounder network for individualized treatment effect estimation with longitudinal observational data</div>
+<div class="l"><a href="https://doi.org/10.1038/s41746-025-01846-1">Paper</a></div>
+</div></article>
+<article class="pub" data-line="rwe">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1016/j.jbi.2025.104880">Variational temporal deconfounder network for individualized treatment effect estimation with longitudinal observational data</a></div>
 <div class="a">Dai H, Huang Y, Liu Y, <span class="me">He X</span>, Guo J, Prosperi M, Bian J</div>
 <div class="v">J Biomed Inform, 2025</div>
-<div class="l"><a href="https://doi.org/10.1016/j.jbi.2025.104880">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Care coordination and patient safety outcome: a graph-based approach</div>
+<div class="l"><a href="https://doi.org/10.1016/j.jbi.2025.104880">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="workflow">
+<div class="pub-media"><img src="images/thumbs/care-coordination-and-patient-safety-outcome-a-gra.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1038/s44401-025-00020-9">Care coordination and patient safety outcome: a graph-based approach</a></div>
 <div class="a">Chen H, Huang Y, Yin C, <span class="me">He X</span>, Ison RL, Bell LL, Opoku RA, Jiang Z, Guo SJ, Liu M, Tighe PJ, Bian J</div>
 <div class="v">Npj Health Syst, 2025</div>
-<div class="l"><a href="https://doi.org/10.1038/s44401-025-00020-9">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Comparing a Guideline-Based Mobile Health Intervention Versus Usual Care for High-Risk Adolescents With Asthma: Protocol of a Randomized Controlled Trial</div>
+<div class="l"><a href="https://doi.org/10.1038/s44401-025-00020-9">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="workflow">
+<div class="pub-media"><img src="images/thumbs/comparing-a-guideline-based-mobile-health-interven.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.2196/69903">Comparing a Guideline-Based Mobile Health Intervention Versus Usual Care for High-Risk Adolescents With Asthma: Protocol of a Randomized Controlled Trial</a></div>
 <div class="a">Perry TT, Turner JH, Berlinski A, Simmons LA, Brown RH, Neal K, Marshall SA, <span class="me">He X</span>, Chung S, Brown A, Spencer Rd HJ, Bian J</div>
 <div class="v">JMIR Res Protoc, 2025</div>
-<div class="l"><a href="https://doi.org/10.2196/69903">Paper</a></div></div>
-<div class="pub" data-line="foundations"><div class="t">Harmonizing Medicare Claims Data with OMOP: A Validated ETL Pipeline</div>
+<div class="l"><a href="https://doi.org/10.2196/69903">Paper</a></div>
+</div></article>
+<article class="pub" data-line="foundations">
+<div class="pub-body">
+<div class="t"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919608/">Harmonizing Medicare Claims Data with OMOP: A Validated ETL Pipeline</a></div>
 <div class="a">Lee YA, Lu Y, Bian J, Guo JS, <span class="me">He X†</span></div>
 <div class="v">AMIA Annual Symposium, 2025</div>
-<div class="l"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919608/">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Toward Integrating Machine Learning-powered Polysocial Risk Scores into Electronic Health Record Workflows</div>
+<p class="s">A validated pipeline that converts Medicare claims to the OMOP Common Data Model for multi-source real-world studies.</p>
+<div class="l"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919608/">Paper</a></div>
+</div></article>
+<article class="pub" data-line="workflow">
+<div class="pub-body">
+<div class="t"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919456/">Toward Integrating Machine Learning-powered Polysocial Risk Scores into Electronic Health Record Workflows</a></div>
 <div class="a"><span class="me">He X</span>, Huang Y, Hu Y, Pappa M, Miller N, Gregory ME, Guo JS, Bian J</div>
 <div class="v">AMIA Annual Symposium, 2025</div>
-<div class="l"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919456/">Paper</a></div></div>
-<div class="pub" data-line="nlp"><div class="t">Automating Lung-RADS Categorization And Follow-Up Recommendations Using In-Context Learning With Large Language Models</div>
+<p class="s">How to move a machine-learning social risk score from a research model into clinicians&#x27; EHR workflow.</p>
+<div class="l"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919456/">Paper</a></div>
+</div></article>
+<article class="pub" data-line="nlp">
+<div class="pub-body">
+<div class="t"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919574/">Automating Lung-RADS Categorization And Follow-Up Recommendations Using In-Context Learning With Large Language Models</a></div>
 <div class="a">Zhou T, Chen A, Hu Y, Lou X, <span class="me">He X</span>, Huang Y, Hochhegger B, Mehta H, Prosperi M, Guo Y, Bian J</div>
 <div class="v">AMIA Annual Symposium, 2025</div>
-<div class="l"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919574/">Paper</a></div></div>
-<div class="pub" data-line="trials"><div class="t">Temporal Ensemble Logic for Integrative Representation of the Entirety of Clinical Trials</div>
+<p class="s">Uses large language models with in-context learning to assign Lung-RADS categories and follow-up recommendations from lung cancer screening reports.</p>
+<div class="l"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919574/">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="trials">
+<div class="pub-media"><img src="images/thumbs/temporal-ensemble-logic-for-integrative-representa.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.4230/lipics.time.2025.13">Temporal Ensemble Logic for Integrative Representation of the Entirety of Clinical Trials</a></div>
 <div class="a">Li X, Huang Y, Abeysinghe R, Sun Z, Chen H, Li P, <span class="me">He X</span>, Tao S, Tao C, Bian J, Cui L, Zhang GQ</div>
 <div class="v">LIPIcs, 2025</div>
-<div class="l"><a href="https://doi.org/10.4230/lipics.time.2025.13">Paper</a></div></div>
-<div class="pub" data-line="trials"><div class="t">Clinical Trial Eligibility Criteria Decomposition and Parsing with Large Language Models</div>
+<div class="l"><a href="https://doi.org/10.4230/lipics.time.2025.13">Paper</a></div>
+</div></article>
+<article class="pub" data-line="trials">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.3233/shti250928">Clinical Trial Eligibility Criteria Decomposition and Parsing with Large Language Models</a></div>
 <div class="a">Chen H, Qian L, <span class="me">He X</span>, Chen A, Huang Y, Gou Q, …, Bian J</div>
 <div class="v">MEDINFO, 2025</div>
-<div class="l"><a href="https://doi.org/10.3233/shti250928">Paper</a></div></div>
-<div class="pub" data-line="foundations"><div class="t">Transforming the Medicare Claims Data to the OMOP Common Data Model</div>
+<p class="s">Uses large language models to break free-text trial eligibility criteria into structured, computable pieces.</p>
+<div class="l"><a href="https://doi.org/10.3233/shti250928">Paper</a></div>
+</div></article>
+<article class="pub" data-line="foundations">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.3233/shti251106">Transforming the Medicare Claims Data to the OMOP Common Data Model</a></div>
 <div class="a">Lee YA, Lu Y, Bian J, Guo J, <span class="me">He X†</span></div>
 <div class="v">MEDINFO, 2025 <span class="tag">short paper</span></div>
-<div class="l"><a href="https://doi.org/10.3233/shti251106">Paper</a></div></div>
-<div class="year">2024</div>
-<div class="pub" data-line="workflow"><div class="t">Design and development of a machine-learning-driven opioid overdose risk prediction tool integrated in electronic health records in primary care settings</div>
+<div class="l"><a href="https://doi.org/10.3233/shti251106">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="workflow">
+<div class="pub-media"><img src="images/thumbs/design-and-development-of-a-machine-learning-drive.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1186/s42234-024-00156-3">Design and development of a machine-learning-driven opioid overdose risk prediction tool integrated in electronic health records in primary care settings</a></div>
 <div class="a">Nguyen K, Wilson DL, Diiulio J, Hall B, Militello L, Gellad WF, …, <span class="me">He X</span>, …, Lo-Ciganic W</div>
 <div class="v">Bioelectron Med, 2024</div>
-<div class="l"><a href="https://doi.org/10.1186/s42234-024-00156-3">Paper</a></div></div>
-<div class="pub" data-line="nlp"><div class="t">Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports of Lung Cancer Screening Patients Using Transformer Models</div>
+<div class="l"><a href="https://doi.org/10.1186/s42234-024-00156-3">Paper</a></div>
+</div></article>
+<article class="pub" data-line="nlp">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1007/s41666-024-00166-5">Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports of Lung Cancer Screening Patients Using Transformer Models</a></div>
 <div class="a">Yang S, Yang X, Lyu T, Huang JL, Chen A, <span class="me">He X</span>, Braithwaite D, Mehta HJ, Wu Y, Guo Y, Bian J</div>
 <div class="v">J Healthc Inform Res, 2024</div>
-<div class="l"><a href="https://doi.org/10.1007/s41666-024-00166-5">Paper</a></div></div>
-<div class="pub" data-line="foundations"><div class="t">Develop and validate a computable phenotype for the identification of Alzheimer’s disease patients using electronic health record data</div>
+<div class="l"><a href="https://doi.org/10.1007/s41666-024-00166-5">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="foundations">
+<div class="pub-media"><img src="images/thumbs/develop-and-validate-a-computable-phenotype-for-th.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1002/dad2.12613">Develop and validate a computable phenotype for the identification of Alzheimer’s disease patients using electronic health record data</a></div>
 <div class="a"><span class="me">He X*</span>, Wei R, Huang Y, Chen Z, Lyu T, Bost S, …, Bian J</div>
 <div class="v">Alzheimers Dement (Amst), 2024</div>
-<div class="l"><a href="https://doi.org/10.1002/dad2.12613">Paper</a></div></div>
-<div class="pub" data-line="foundations"><div class="t">Developing a computable phenotype for glioblastoma</div>
+<p class="s">Develops a computable phenotype that identifies Alzheimer&#x27;s disease patients in EHR data and validates it against chart review.</p>
+<div class="l"><a href="https://doi.org/10.1002/dad2.12613">Paper</a></div>
+</div></article>
+<article class="pub" data-line="foundations">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1093/neuonc/noad249">Developing a computable phenotype for glioblastoma</a></div>
 <div class="a">Yan S, Melnick K, <span class="me">He X</span>, Lyu T, Moor RSF, Still MEH, Mitchell DA, Shenkman EA, Wang H, Guo Y, Bian J, Ghiaseddin AP</div>
 <div class="v">Neuro Oncol, 2024</div>
-<div class="l"><a href="https://doi.org/10.1093/neuonc/noad249">Paper</a></div></div>
-<div class="year">2023</div>
-<div class="pub" data-line="rwe"><div class="t">Early prediction of Alzheimer’s disease and related dementias using real-world electronic health records</div>
+<div class="l"><a href="https://doi.org/10.1093/neuonc/noad249">Paper</a></div>
+</div></article>
+<article class="pub" data-line="rwe">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1002/alz.12967">Early prediction of Alzheimer’s disease and related dementias using real-world electronic health records</a></div>
 <div class="a">Li Q, Yang X, Xu J, Guo Y, <span class="me">He X</span>, Hu H, …, Bian J</div>
 <div class="v">Alzheimers Dement, 2023</div>
-<div class="l"><a href="https://doi.org/10.1002/alz.12967">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Methodological Challenges in Spatial and Contextual Exposome-Health Studies</div>
+<div class="l"><a href="https://doi.org/10.1002/alz.12967">Paper</a></div>
+</div></article>
+<article class="pub" data-line="workflow">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1080/10643389.2022.2093595">Methodological Challenges in Spatial and Contextual Exposome-Health Studies</a></div>
 <div class="a">Hu H, Liu X, Zheng Y, <span class="me">He X</span>, Hart J, James P, Laden F, Chen Y, Bian J</div>
 <div class="v">Crit Rev Environ Sci Technol, 2023</div>
-<div class="l"><a href="https://doi.org/10.1080/10643389.2022.2093595">Paper</a></div></div>
-<div class="pub" data-line="nlp"><div class="t">Assess the documentation of cognitive tests and biomarkers in electronic health records via natural language processing for Alzheimer’s disease and related dementias</div>
+<div class="l"><a href="https://doi.org/10.1080/10643389.2022.2093595">Paper</a></div>
+</div></article>
+<article class="pub" data-line="nlp">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1016/j.ijmedinf.2022.104973">Assess the documentation of cognitive tests and biomarkers in electronic health records via natural language processing for Alzheimer’s disease and related dementias</a></div>
 <div class="a">Chen Z, Zhang H, Yang X, Wu S, <span class="me">He X</span>, Xu J, …, Bian J</div>
 <div class="v">Int J Med Inform, 2023</div>
-<div class="l"><a href="https://doi.org/10.1016/j.ijmedinf.2022.104973">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Classification of Benign and Malignant Renal Tumors Based on CT Scans and Clinical Data Using Machine Learning Methods</div>
+<div class="l"><a href="https://doi.org/10.1016/j.ijmedinf.2022.104973">Paper</a></div>
+</div></article>
+<article class="pub" data-line="workflow">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.3390/informatics10030055">Classification of Benign and Malignant Renal Tumors Based on CT Scans and Clinical Data Using Machine Learning Methods</a></div>
 <div class="a">Xu J, <span class="me">He X</span>, Shao W, Bian J, Terry R</div>
 <div class="v">Informatics, 2023</div>
-<div class="l"><a href="https://doi.org/10.3390/informatics10030055">Paper</a></div></div>
-<div class="pub" data-line="foundations"><div class="t">A Computable Phenotype for the Identification of Sexual and Gender Minorities in Electronic Health Records</div>
+<div class="l"><a href="https://doi.org/10.3390/informatics10030055">Paper</a></div>
+</div></article>
+<article class="pub" data-line="foundations">
+<div class="pub-body">
+<div class="t">A Computable Phenotype for the Identification of Sexual and Gender Minorities in Electronic Health Records</div>
 <div class="a">Li Y, <span class="me">He X</span>, Wheldon C, Wu Y, Prosperi M, Shenkman EA, Jaffee MS, Guo J, Wang F, Guo Y, Bian J</div>
-<div class="v">AMIA Annual Symposium, 2023</div></div>
-<div class="year">2022</div>
-<div class="pub" data-line="rwe"><div class="t">Unraveling COVID-19: A Large-Scale Characterization of 4.5 Million COVID-19 Cases Using CHARYBDIS</div>
+<div class="v">AMIA Annual Symposium, 2023</div>
+</div></article>
+<article class="pub has-media" data-line="rwe">
+<div class="pub-media"><img src="images/thumbs/unraveling-covid-19-a-large-scale-characterization.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.2147/clep.s323292">Unraveling COVID-19: A Large-Scale Characterization of 4.5 Million COVID-19 Cases Using CHARYBDIS</a></div>
 <div class="a">Kostka K, Duarte-Salles T, Prats-Uribe A, Sena AG, Pistillo A, Khalid S, …, <span class="me">He X</span>, …, Prieto-Alhambra D</div>
 <div class="v">Clin Epidemiol, 2022</div>
-<div class="l"><a href="https://doi.org/10.2147/clep.s323292">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Biases in using social media data for public health surveillance: A scoping review</div>
+<div class="l"><a href="https://doi.org/10.2147/clep.s323292">Paper</a></div>
+</div></article>
+<article class="pub" data-line="workflow">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1016/j.ijmedinf.2022.104804">Biases in using social media data for public health surveillance: A scoping review</a></div>
 <div class="a">Zhao Y, <span class="me">He X</span>, Feng Z, Bost S, Prosperi M, Wu Y, Guo Y, Bian J</div>
 <div class="v">Int J Med Inform, 2022</div>
-<div class="l"><a href="https://doi.org/10.1016/j.ijmedinf.2022.104804">Paper</a></div></div>
-<div class="pub" data-line="foundations"><div class="t">A scoping review of semantic integration of health data and information</div>
+<div class="l"><a href="https://doi.org/10.1016/j.ijmedinf.2022.104804">Paper</a></div>
+</div></article>
+<article class="pub" data-line="foundations">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1016/j.ijmedinf.2022.104834">A scoping review of semantic integration of health data and information</a></div>
 <div class="a">Zhang H, Lyu T, Yin P, Bost S, <span class="me">He X</span>, Guo Y, Prosperi M, Hogan WR, Bian J</div>
 <div class="v">Int J Med Inform, 2022</div>
-<div class="l"><a href="https://doi.org/10.1016/j.ijmedinf.2022.104834">Paper</a></div></div>
-<div class="pub" data-line="trials"><div class="t">Impacts of Eligibility Criteria on Trial Participants’ Age in Alzheimer’s Disease Clinical Trials</div>
+<div class="l"><a href="https://doi.org/10.1016/j.ijmedinf.2022.104834">Paper</a></div>
+</div></article>
+<article class="pub" data-line="trials">
+<div class="pub-body">
+<div class="t">Impacts of Eligibility Criteria on Trial Participants’ Age in Alzheimer’s Disease Clinical Trials</div>
 <div class="a">Chen A, Li Q, <span class="me">He X</span>, Jaffee MS, Hogan WR, Wang F, Guo Y, Bian J</div>
-<div class="v">AMIA Annual Symposium, 2022</div></div>
-<div class="pub" data-line="nlp"><div class="t">A Preliminary Study of Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports Using Natural Language Processing</div>
+<div class="v">AMIA Annual Symposium, 2022</div>
+</div></article>
+<article class="pub" data-line="nlp">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1109/ichi54592.2022.00125">A Preliminary Study of Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports Using Natural Language Processing</a></div>
 <div class="a">Yang S, Yang X, Lyu T, <span class="me">He X</span>, Braithwaite D, Mehta HJ, Guo Y, Wu Y, Bian J</div>
 <div class="v">IEEE ICHI, 2022 <span class="tag">short paper</span></div>
-<div class="l"><a href="https://doi.org/10.1109/ichi54592.2022.00125">Paper</a></div></div>
-<div class="year">2021</div>
-<div class="pub" data-line="foundations"><div class="t">When text simplification is not enough: could a graph-based visualization facilitate consumers’ comprehension of dietary supplement information?</div>
+<div class="l"><a href="https://doi.org/10.1109/ichi54592.2022.00125">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="foundations">
+<div class="pub-media"><img src="images/thumbs/when-text-simplification-is-not-enough-could-a-gra.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1093/jamiaopen/ooab026">When text simplification is not enough: could a graph-based visualization facilitate consumers’ comprehension of dietary supplement information?</a></div>
 <div class="a"><span class="me">He X*</span>, Zhang R, Alpert J, Zhou S, Adam TJ, Raisa A, Peng Y, Zhang H, Guo Y, Bian J</div>
 <div class="v">JAMIA Open, 2021</div>
-<div class="l"><a href="https://doi.org/10.1093/jamiaopen/ooab026">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Data and Model Biases in Social Media Analyses: A Case Study of COVID-19 Tweets</div>
+<div class="l"><a href="https://doi.org/10.1093/jamiaopen/ooab026">Paper</a></div>
+</div></article>
+<article class="pub" data-line="workflow">
+<div class="pub-body">
+<div class="t">Data and Model Biases in Social Media Analyses: A Case Study of COVID-19 Tweets</div>
 <div class="a">Zhao Y, Yin P, Li Y, <span class="me">He X</span>, Du J, Tao C, Guo Y, Prosperi M, Veltri P, Yang X, Wu Y, Bian J</div>
-<div class="v">AMIA Annual Symposium, 2021</div></div>
-<div class="year">2020</div>
-<div class="pub" data-line="rwe"><div class="t">Causal inference and counterfactual prediction in machine learning for actionable healthcare</div>
+<div class="v">AMIA Annual Symposium, 2021</div>
+</div></article>
+<article class="pub" data-line="rwe">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1038/s42256-020-0197-y">Causal inference and counterfactual prediction in machine learning for actionable healthcare</a></div>
 <div class="a">Prosperi M, Guo Y, Sperrin M, Koopman JS, Min JS, <span class="me">He X</span>, Rich S, Wang M, Buchan IE, Bian J</div>
 <div class="v">Nature Machine Intelligence, 2020</div>
-<div class="l"><a href="https://doi.org/10.1038/s42256-020-0197-y">Paper</a></div></div>
-<div class="pub" data-line="nlp"><div class="t">Measurement of Semantic Textual Similarity in Clinical Texts: Comparison of Transformer-Based Models</div>
+<p class="s">Argues that prediction models need causal reasoning before they can guide clinical decisions.</p>
+<div class="l"><a href="https://doi.org/10.1038/s42256-020-0197-y">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="nlp">
+<div class="pub-media"><img src="images/thumbs/measurement-of-semantic-textual-similarity-in-clin.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.2196/19735">Measurement of Semantic Textual Similarity in Clinical Texts: Comparison of Transformer-Based Models</a></div>
 <div class="a">Yang X, <span class="me">He X</span>, Zhang H, Ma Y, Bian J, Wu Y</div>
 <div class="v">JMIR Med Inform, 2020</div>
-<div class="l"><a href="https://doi.org/10.2196/19735">Paper</a></div></div>
-<div class="pub" data-line="workflow"><div class="t">Assessing mental health signals among sexual and gender minorities using Twitter data</div>
+<div class="l"><a href="https://doi.org/10.2196/19735">Paper</a></div>
+</div></article>
+<article class="pub" data-line="workflow">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1177/1460458219839621">Assessing mental health signals among sexual and gender minorities using Twitter data</a></div>
 <div class="a">Zhao Y, Guo Y, <span class="me">He X</span>, Wu Y, Yang X, Prosperi M, Jin Y, Bian J</div>
 <div class="v">Health Informatics J, 2020</div>
-<div class="l"><a href="https://doi.org/10.1177/1460458219839621">Paper</a></div></div>
-<div class="pub" data-line="nlp"><div class="t">User-centered design of a web-based crowdsourcing-integrated semantic text annotation tool for building a mental health knowledge base</div>
+<div class="l"><a href="https://doi.org/10.1177/1460458219839621">Paper</a></div>
+</div></article>
+<article class="pub" data-line="nlp">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1016/j.jbi.2020.103571">User-centered design of a web-based crowdsourcing-integrated semantic text annotation tool for building a mental health knowledge base</a></div>
 <div class="a"><span class="me">He X</span>, Zhang H, Bian J</div>
 <div class="v">J Biomed Inform, 2020</div>
-<div class="l"><a href="https://doi.org/10.1016/j.jbi.2020.103571">Paper</a></div></div>
-<div class="pub" data-line="nlp"><div class="t">Extracting Family History of Patients From Clinical Narratives: Exploring an End-to-End Solution With Deep Learning Models</div>
+<div class="l"><a href="https://doi.org/10.1016/j.jbi.2020.103571">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="nlp">
+<div class="pub-media"><img src="images/thumbs/extracting-family-history-of-patients-from-clinica.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.2196/22982">Extracting Family History of Patients From Clinical Narratives: Exploring an End-to-End Solution With Deep Learning Models</a></div>
 <div class="a">Yang X, Zhang H, <span class="me">He X</span>, Bian J, Wu Y</div>
 <div class="v">JMIR Med Inform, 2020</div>
-<div class="l"><a href="https://doi.org/10.2196/22982">Paper</a></div></div>
-<div class="pub" data-line="foundations"><div class="t">Developing and Validating a Computable Phenotype for the Identification of Transgender and Gender Nonconforming Individuals and Subgroups</div>
+<div class="l"><a href="https://doi.org/10.2196/22982">Paper</a></div>
+</div></article>
+<article class="pub" data-line="foundations">
+<div class="pub-body">
+<div class="t">Developing and Validating a Computable Phenotype for the Identification of Transgender and Gender Nonconforming Individuals and Subgroups</div>
 <div class="a">Guo Y, <span class="me">He X*</span>, Lyu T, Zhang H, Wu Y, Yang X, …, Bian J</div>
-<div class="v">AMIA Annual Symposium, 2020</div></div>
-<div class="pub" data-line="workflow"><div class="t">Understanding Perceptions and Attitudes toward Genetically Modified Organisms on Twitter</div>
+<div class="v">AMIA Annual Symposium, 2020</div>
+</div></article>
+<article class="pub" data-line="workflow">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1145/3400806.3400839">Understanding Perceptions and Attitudes toward Genetically Modified Organisms on Twitter</a></div>
 <div class="a">Jun I, Zhao Y, <span class="me">He X</span>, Gollakner R, Court C, Munoz O, Bian J, Capua I, Prosperi M</div>
 <div class="v">Social Media &amp; Society, 2020</div>
-<div class="l"><a href="https://doi.org/10.1145/3400806.3400839">Paper</a></div></div>
-<div class="year">2019</div>
-<div class="pub" data-line="foundations"><div class="t">ALOHA: developing an interactive graph-based visualization for dietary supplement knowledge graph through user-centered design</div>
+<div class="l"><a href="https://doi.org/10.1145/3400806.3400839">Paper</a></div>
+</div></article>
+<article class="pub has-media" data-line="foundations">
+<div class="pub-media"><img src="images/thumbs/aloha-developing-an-interactive-graph-based-visual.jpg" alt="" loading="lazy" decoding="async"></div>
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1186/s12911-019-0857-1">ALOHA: developing an interactive graph-based visualization for dietary supplement knowledge graph through user-centered design</a></div>
 <div class="a"><span class="me">He X*</span>, Zhang R, Rizvi R, Vasilakes J, Yang X, Guo Y, He Z, Prosperi M, Huo J, Alpert J, Bian J</div>
 <div class="v">BMC Med Inform Decis Mak, 2019</div>
-<div class="l"><a href="https://doi.org/10.1186/s12911-019-0857-1">Paper</a></div></div>
-<div class="pub" data-line="nlp"><div class="t">STAT: A Web-based Semantic Text Annotation Tool to Assist Building Mental Health Knowledge Base</div>
+<div class="l"><a href="https://doi.org/10.1186/s12911-019-0857-1">Paper</a></div>
+</div></article>
+<article class="pub" data-line="nlp">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1109/ichi.2019.8904503">STAT: A Web-based Semantic Text Annotation Tool to Assist Building Mental Health Knowledge Base</a></div>
 <div class="a"><span class="me">He X</span>, Zhang H, Yang X, Guo Y, Bian J</div>
 <div class="v">IEEE ICHI, 2019</div>
-<div class="l"><a href="https://doi.org/10.1109/ichi.2019.8904503">Paper</a></div></div>
-<div class="pub" data-line="foundations"><div class="t">Aero: An Evidence-based Semantic Web Knowledge Base of Cancer Behavioral Risk Factors</div>
+<div class="l"><a href="https://doi.org/10.1109/ichi.2019.8904503">Paper</a></div>
+</div></article>
+<article class="pub" data-line="foundations">
+<div class="pub-body">
+<div class="t"><a href="https://ceur-ws.org/Vol-2427/SEPDA_2019_paper_13.pdf">Aero: An Evidence-based Semantic Web Knowledge Base of Cancer Behavioral Risk Factors</a></div>
 <div class="a">Zhang H, <span class="me">He X</span>, Harrison T, Bian J</div>
 <div class="v">SEPDA Workshop, 2019</div>
-<div class="l"><a href="https://ceur-ws.org/Vol-2427/SEPDA_2019_paper_13.pdf">Paper</a></div></div>
-<div class="pub" data-line="foundations"><div class="t">Towards an Interactive Visualization for Dietary Supplement Knowledge Graph</div>
+<div class="l"><a href="https://ceur-ws.org/Vol-2427/SEPDA_2019_paper_13.pdf">Paper</a></div>
+</div></article>
+<article class="pub" data-line="foundations">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1109/ichi.2019.8904618">Towards an Interactive Visualization for Dietary Supplement Knowledge Graph</a></div>
 <div class="a"><span class="me">He X</span>, Bian J</div>
 <div class="v">IEEE ICHI, 2019 <span class="tag">short paper</span></div>
-<div class="l"><a href="https://doi.org/10.1109/ichi.2019.8904618">Paper</a></div></div>
-<div class="year">2018</div>
-<div class="pub" data-line="trials"><div class="t">Computable Eligibility Criteria through Ontology-driven Data Access: A Case Study of Hepatitis C Virus Trials</div>
+<div class="l"><a href="https://doi.org/10.1109/ichi.2019.8904618">Paper</a></div>
+</div></article>
+<article class="pub" data-line="trials">
+<div class="pub-body">
+<div class="t">Computable Eligibility Criteria through Ontology-driven Data Access: A Case Study of Hepatitis C Virus Trials</div>
 <div class="a">Zhang H, He Z, <span class="me">He X</span>, Guo Y, Nelson DR, Modave F, Wu Y, Hogan W, Prosperi M, Bian J</div>
-<div class="v">AMIA Annual Symposium, 2018</div></div>
-<div class="pub" data-line="foundations"><div class="t">Prototyping an Interactive Visualization of Dietary Supplement Knowledge Graph</div>
+<div class="v">AMIA Annual Symposium, 2018</div>
+</div></article>
+<article class="pub" data-line="foundations">
+<div class="pub-body">
+<div class="t"><a href="https://doi.org/10.1109/bibm.2018.8621340">Prototyping an Interactive Visualization of Dietary Supplement Knowledge Graph</a></div>
 <div class="a"><span class="me">He X</span>, Zhang R, Rizvi R, Vasilakes J, Yang X, Guo Y, He Z, Prosperi M, Bian J</div>
 <div class="v">IEEE BIBM, 2018</div>
-<div class="l"><a href="https://doi.org/10.1109/bibm.2018.8621340">Paper</a></div></div>
-</details>
+<div class="l"><a href="https://doi.org/10.1109/bibm.2018.8621340">Paper</a></div>
+</div></article>
+</div>
 <script>
 (function(){
-  const box=document.getElementById('allpubs'); if(!box) return;
-  box.querySelectorAll('.filters button').forEach(btn=>btn.addEventListener('click',()=>{
+  const bar=document.getElementById('pubfilters'), list=document.getElementById('publist'); if(!bar||!list) return;
+  bar.querySelectorAll('button').forEach(btn=>btn.addEventListener('click',()=>{
     const f=btn.dataset.f;
-    box.querySelectorAll('.filters button').forEach(b=>b.setAttribute('aria-pressed',b===btn));
-    box.querySelectorAll('.pub').forEach(el=>{el.hidden=!!f&&el.dataset.line!==f;});
-    box.querySelectorAll('.year').forEach(y=>{let n=y.nextElementSibling,any=false;
-      while(n&&!n.classList.contains('year')){if(n.classList.contains('pub')&&!n.hidden)any=true;n=n.nextElementSibling;}
-      y.hidden=!any;});
+    bar.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b===btn));
+    list.querySelectorAll('.pub').forEach(el=>{el.hidden=!!f&&el.dataset.line!==f;});
   }));
 })();
 </script>

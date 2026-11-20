@@ -23,6 +23,7 @@
   type: journal
   role: middle
   line: rwe
+  image: images/thumbs/hyperglycosylation-is-a-metabolic-driver-of-alzhei.jpg
 - title: Identifying Alzheimer’s Disease Progression Subphenotypes Via a Graph-based Framework Using Electronic Health Records
   authors: Huang Y, Xu J, Fan Z, Hu Y, He X, Chen A, Liu Y, Yin R, Guo J, DeKosky ST, Jaffee M, Zhou M, Su C, Wang F, Guo Y, Bian J
   venue: J Healthc Inform Res
@@ -31,6 +32,7 @@
   type: journal
   role: middle
   line: foundations
+  image: images/thumbs/identifying-alzheimer-s-disease-progression-subphe.jpg
 - title: 'The spatial and contextual exposome and subtypes of hypertensive disorders of pregnancy: a double machine learning-based analysis'
   authors: Hu H, Leiser CL, He X, Hart JE, Laden F, Tao C, Bian J
   venue: Exposome
@@ -39,6 +41,7 @@
   type: journal
   role: middle
   line: workflow
+  image: images/thumbs/the-spatial-and-contextual-exposome-and-subtypes-o.jpg
 - title: Real-World Effectiveness and Safety of GLP-1 Receptor Agonists Among Patients With Weight Recurrence After Bariatric Surgery
   authors: Yuce T, Radwan RM, Lee YA, Holler E, Dai H, He X, Huang Y, Guo Y, Bian J, Guo J
   venue: Obesity (Silver Spring)
@@ -65,6 +68,7 @@
   line: rwe
   selected: 5
   summary: A framework for checking whether EHR and linked claims data are fit to support a target trial emulation.
+  image: images/thumbs/assessing-the-quality-of-electronic-health-record.jpg
 - title: Co-designing an Outpatient Clinical Decision Support Prototype for Managing Social Risks in Patients Living with Dementia
   authors: Alfaqih MA, Haessner P, LeLaurin JH, Guo J, Hammer NC, Ike-Okpe O, Pappa MJ, He X, Salloum RG, Bian J, Gregory ME
   venue: Appl Clin Inform
@@ -73,6 +77,7 @@
   type: journal
   role: middle
   line: workflow
+  image: images/thumbs/co-designing-an-outpatient-clinical-decision-suppo.jpg
 - title: Feasibility of identifying factors related to Alzheimer’s disease and related dementia in real-world data
   authors: Huang Y, Li Q, Chen A, Li Y, Chuang YN, Hu X, Guo SJ, He X, Pang Y, Zhou J, Wu Y, Guo Y, Bian J
   venue: JAMIA Open
@@ -89,6 +94,7 @@
   type: journal
   role: middle
   line: rwe
+  image: images/thumbs/real-world-mortality-and-the-effect-of-comorbiditi.jpg
 - title: Develop and validate a computable phenotype for identifying alcohol-use disorder patients using structure and unstructured EHR data
   authors: Dai H, Tapper EB, Zhao L, Scheiffele GD, Li X, Ramon R, He X, Lee YA, Guo J, Bian J
   venue: Alcohol Alcohol
@@ -106,6 +112,7 @@
   type: journal
   role: middle
   line: rwe
+  image: images/thumbs/estimation-of-prevalence-of-autoimmune-diseases-in.jpg
 - title: Enhancing medical coding efficiency through domain-specific fine-tuned large language models
   authors: Hou Z, Liu H, Bian J, He X, Zhuang Y
   venue: Npj Health Syst
@@ -116,6 +123,7 @@
   line: nlp
   selected: 7
   summary: Fine-tunes large language models on domain data to make medical coding from clinical text faster.
+  image: images/thumbs/enhancing-medical-coding-efficiency-through-domain.jpg
 - title: Glycogen drives tumour initiation and progression in lung adenocarcinoma
   authors: Clarke HA, Hawkinson TR, Shedlock CJ, Medina T, Ribas RA, Wu L, Liu Z, Ma X, Xia Y, Huang Y, He X, Chang JE, Young LEA, Juras JA, Buoncristiani MD, James AN, Rushin A, Merritt ME, Mestas A, Lamb
     JF, Manauis EC, Austin GL, Chen L, Singh PK, Bian J, Vander Kooi CW, Evers BM, Brainson CF, Allison DB, Gentry MS, Sun RC
@@ -133,6 +141,7 @@
   type: journal
   role: middle
   line: trials
+  image: images/thumbs/enhancing-patient-trial-matching-with-large-langua.jpg
 - title: 'Mobile Health App for Adolescent Asthma Self-Management: Development and Usability Study of the Pulmonary Education and Knowledge Mobile Asthma Action Plan'
   authors: He X, Bian J, Berlinski A, Guo Y, Simmons AL, Marshall SA, Greene CJ, Brown RH, Turner J, Perry TT
   venue: JMIR Form Res
@@ -141,6 +150,7 @@
   type: journal
   role: first
   line: workflow
+  image: images/thumbs/mobile-health-app-for-adolescent-asthma-self-manag.jpg
 - title: 'GatorCLR: Personalized predictions of patient outcomes on electronic health records using self-supervised contrastive graph representation'
   authors: Liu Y, Zhang Z, Mi J, Pan S, Chen T, Guo Y, He X, Bian J
   venue: J Biomed Inform
@@ -174,6 +184,7 @@
   type: journal
   role: middle
   line: rwe
+  image: images/thumbs/cola-glm-collaborative-one-shot-and-lossless-algor.jpg
 - title: A communication-efficient federated learning algorithm to assess racial disparities in post-transplantation survival time
   authors: Wang Y, Zhang D, Tong J, He X, Li L, Sun L, Shukla AM, Bian J, Asch DA, Chen Y
   venue: J Am Med Inform Assoc
@@ -191,6 +202,7 @@
   type: journal
   role: middle
   line: rwe
+  image: images/thumbs/unlocking-efficiency-in-real-world-collaborative-s.jpg
 - title: Variational temporal deconfounder network for individualized treatment effect estimation with longitudinal observational data
   authors: Dai H, Huang Y, Liu Y, He X, Guo J, Prosperi M, Bian J
   venue: J Biomed Inform
@@ -207,6 +219,7 @@
   type: journal
   role: middle
   line: workflow
+  image: images/thumbs/care-coordination-and-patient-safety-outcome-a-gra.jpg
 - title: 'Comparing a Guideline-Based Mobile Health Intervention Versus Usual Care for High-Risk Adolescents With Asthma: Protocol of a Randomized Controlled Trial'
   authors: Perry TT, Turner JH, Berlinski A, Simmons LA, Brown RH, Neal K, Marshall SA, He X, Chung S, Brown A, Spencer Rd HJ, Bian J
   venue: JMIR Res Protoc
@@ -215,6 +228,7 @@
   type: journal
   role: middle
   line: workflow
+  image: images/thumbs/comparing-a-guideline-based-mobile-health-interven.jpg
 - title: 'Harmonizing Medicare Claims Data with OMOP: A Validated ETL Pipeline'
   authors: Lee YA, Lu Y, Bian J, Guo JS, He X
   venue: AMIA Annual Symposium
@@ -253,6 +267,7 @@
   type: proceedings
   role: middle
   line: trials
+  image: images/thumbs/temporal-ensemble-logic-for-integrative-representa.jpg
 - title: Clinical Trial Eligibility Criteria Decomposition and Parsing with Large Language Models
   authors: Chen H, Qian L, He X, Chen A, Huang Y, Gou Q, Wang Y, Wang Y, Ai X, Zhou Y, Cohen I, Chen Q, Xu H, Bian J
   venue: MEDINFO
@@ -280,6 +295,7 @@
   type: journal
   role: middle
   line: workflow
+  image: images/thumbs/design-and-development-of-a-machine-learning-drive.jpg
 - title: Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports of Lung Cancer Screening Patients Using Transformer Models
   authors: Yang S, Yang X, Lyu T, Huang JL, Chen A, He X, Braithwaite D, Mehta HJ, Wu Y, Guo Y, Bian J
   venue: J Healthc Inform Res
@@ -298,6 +314,7 @@
   line: foundations
   selected: 1
   summary: Develops a computable phenotype that identifies Alzheimer's disease patients in EHR data and validates it against chart review.
+  image: images/thumbs/develop-and-validate-a-computable-phenotype-for-th.jpg
 - title: Developing a computable phenotype for glioblastoma
   authors: Yan S, Melnick K, He X, Lyu T, Moor RSF, Still MEH, Mitchell DA, Shenkman EA, Wang H, Guo Y, Bian J, Ghiaseddin AP
   venue: Neuro Oncol
@@ -357,6 +374,7 @@
   type: journal
   role: middle
   line: rwe
+  image: images/thumbs/unraveling-covid-19-a-large-scale-characterization.jpg
 - title: 'Biases in using social media data for public health surveillance: A scoping review'
   authors: Zhao Y, He X, Feng Z, Bost S, Prosperi M, Wu Y, Guo Y, Bian J
   venue: Int J Med Inform
@@ -396,6 +414,7 @@
   type: journal
   role: cofirst
   line: foundations
+  image: images/thumbs/when-text-simplification-is-not-enough-could-a-gra.jpg
 - title: 'Data and Model Biases in Social Media Analyses: A Case Study of COVID-19 Tweets'
   authors: Zhao Y, Yin P, Li Y, He X, Du J, Tao C, Guo Y, Prosperi M, Veltri P, Yang X, Wu Y, Bian J
   venue: AMIA Annual Symposium
@@ -421,6 +440,7 @@
   type: journal
   role: middle
   line: nlp
+  image: images/thumbs/measurement-of-semantic-textual-similarity-in-clin.jpg
 - title: Assessing mental health signals among sexual and gender minorities using Twitter data
   authors: Zhao Y, Guo Y, He X, Wu Y, Yang X, Prosperi M, Jin Y, Bian J
   venue: Health Informatics J
@@ -445,6 +465,7 @@
   type: journal
   role: middle
   line: nlp
+  image: images/thumbs/extracting-family-history-of-patients-from-clinica.jpg
 - title: Developing and Validating a Computable Phenotype for the Identification of Transgender and Gender Nonconforming Individuals and Subgroups
   authors: Guo Y, He X, Lyu T, Zhang H, Wu Y, Yang X, Chen Z, Markham MJ, Modave F, Xie M, Hogan W, Harle CA, Shenkman EA, Bian J
   venue: AMIA Annual Symposium
@@ -468,6 +489,7 @@
   type: journal
   role: cofirst
   line: foundations
+  image: images/thumbs/aloha-developing-an-interactive-graph-based-visual.jpg
 - title: 'STAT: A Web-based Semantic Text Annotation Tool to Assist Building Mental Health Knowledge Base'
   authors: He X, Zhang H, Yang X, Guo Y, Bian J
   venue: IEEE ICHI
