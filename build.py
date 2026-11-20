@@ -37,9 +37,11 @@ def pub(p):
     media = ""
     if img and os.path.exists(img):
         media = f'<div class="pub-media"><img src="{esc(img)}" alt="" loading="lazy" decoding="async"></div>\n'
+    gname = {"nlp": "Clinical record", "trials": "Trials", "rwe": "Causal evidence", "foundations": "Foundations", "workflow": "Workflows"}.get(p.get("line"), "")
+    glabel = f' <span class="gl g-{p.get("line")}">{gname}</span>' if gname else ""
     body = [f'<div class="t">{title}</div>',
             f'<div class="a">{authors(p)}</div>',
-            f'<div class="v">{esc(p["venue"])}, {p["year"]}{tag}</div>']
+            f'<div class="v">{esc(p["venue"])}, {p["year"]}{tag}{glabel}</div>']
     if p.get("summary"):
         body.append(f'<p class="s">{esc(p["summary"])}</p>')
     if p.get("url"):
@@ -59,11 +61,11 @@ block = f"""<h2 id="publications">Publications</h2>
 <p class="note">* co-first author, † senior author · also on <a href="{SCHOLAR}">Google Scholar</a> and <a href="{ORCID}">ORCID</a></p>
 <p class="filters" id="pubfilters">Filter:
 <button data-f="" aria-pressed="true">All</button>
-<button data-f="nlp">1 Clinical record</button>
-<button data-f="trials">2 Trials</button>
-<button data-f="rwe">3 Causal evidence</button>
-<button data-f="foundations">4 Foundations</button>
-<button data-f="workflow">5 Workflows</button></p>
+<button data-f="nlp" class="g-nlp">1 Clinical record</button>
+<button data-f="trials" class="g-trials">2 Trials</button>
+<button data-f="rwe" class="g-rwe">3 Causal evidence</button>
+<button data-f="foundations" class="g-foundations">4 Foundations</button>
+<button data-f="workflow" class="g-workflow">5 Workflows</button></p>
 <div class="pub-list" id="publist">
 <h3 class="pub-group">Journal articles <span class="count">({len(journal)})</span></h3>
 {chr(10).join(pub(p) for p in journal)}
