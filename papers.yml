@@ -1,0 +1,493 @@
+# Publications for yeechingtiger.github.io
+# Edit this file, then run:  python3 build.py
+#
+# role:     first | cofirst | senior | middle     (first/cofirst/senior show * or † on the page)
+# line:     llm | tte | phenotype | other         (research direction)
+# type:     journal | proceedings | short
+# selected: 1..8  -> shown on the homepage in this order; omit to show only on publications.html
+- title: Hyperglycosylation is a metabolic driver of Alzheimer’s disease
+  authors: Hawkinson TR, Liu Z, Ribas RA, Medina T, Nielsen RS, Clarke HA, Ma X, Mueller AC, Plasencia AF, Sheer AL, Simpson ST, Soto CM, Sudderth J, Cai F, Cantrell AR, Colpaert MG, Shedlock CJ, Wu L,
+    Young LEA, Kooser DD, Chen L, Ryan AM, Quinones S, Son J, Azadi P, Deberardinis RJ, Prokop S, Allison D, Yang S, Chen H, Huang Y, He X, Alonge KM, Guo J, Guo Y, Bian J, Vander Kooi CW, Gentry MS, Sun
+    RC
+  venue: Nat Metab
+  year: 2026
+  url: https://doi.org/10.1038/s42255-026-01538-4
+  type: journal
+  role: middle
+  line: other
+- title: Identifying Alzheimer’s Disease Progression Subphenotypes Via a Graph-based Framework Using Electronic Health Records
+  authors: Huang Y, Xu J, Fan Z, Hu Y, He X, Chen A, Liu Y, Yin R, Guo J, DeKosky ST, Jaffee M, Zhou M, Su C, Wang F, Guo Y, Bian J
+  venue: J Healthc Inform Res
+  year: 2026
+  url: https://doi.org/10.1007/s41666-026-00230-2
+  type: journal
+  role: middle
+  line: phenotype
+- title: 'The spatial and contextual exposome and subtypes of hypertensive disorders of pregnancy: a double machine learning-based analysis'
+  authors: Hu H, Leiser CL, He X, Hart JE, Laden F, Tao C, Bian J
+  venue: Exposome
+  year: 2026
+  url: https://doi.org/10.1093/exposome/osag009
+  type: journal
+  role: middle
+  line: llm
+- title: Real-World Effectiveness and Safety of GLP-1 Receptor Agonists Among Patients With Weight Recurrence After Bariatric Surgery
+  authors: Yuce T, Radwan RM, Lee YA, Holler E, Dai H, He X, Huang Y, Guo Y, Bian J, Guo J
+  venue: Obesity (Silver Spring)
+  year: 2026
+  url: https://doi.org/10.1002/oby.70280
+  type: journal
+  role: middle
+  line: tte
+- title: Adaptation of a fair individualized polysocial risk score for hospitalization risk prediction
+  authors: Gou Q, Hu Y, He X, Gregory ME, LeLaurin JH, Salloum RG, Bian J, Guo J, Huang Y
+  venue: JAMIA Open
+  year: 2026
+  url: https://doi.org/10.1093/jamiaopen/ooag161
+  type: journal
+  role: middle
+  line: other
+- title: Assessing the quality of electronic health record data and the claims linked data for target trial emulation studies
+  authors: Lee YA, Lu Y, Morris EJ, He X, Winterstein AG, Henriksen C, Bian J, Guo J
+  venue: JAMIA Open
+  year: 2026
+  url: https://doi.org/10.1093/jamiaopen/ooag102
+  type: journal
+  role: middle
+  line: tte
+  selected: 5
+- title: Co-designing an Outpatient Clinical Decision Support Prototype for Managing Social Risks in Patients Living with Dementia
+  authors: Alfaqih MA, Haessner P, LeLaurin JH, Guo J, Hammer NC, Ike-Okpe O, Pappa MJ, He X, Salloum RG, Bian J, Gregory ME
+  venue: Appl Clin Inform
+  year: 2026
+  url: https://doi.org/10.1055/a-2917-6503
+  type: journal
+  role: middle
+  line: other
+- title: Feasibility of identifying factors related to Alzheimer’s disease and related dementia in real-world data
+  authors: Huang Y, Li Q, Chen A, Li Y, Chuang YN, Hu X, Guo SJ, He X, Pang Y, Zhou J, Wu Y, Guo Y, Bian J
+  venue: JAMIA Open
+  year: 2026
+  url: https://doi.org/10.1093/jamiaopen/ooag060
+  type: journal
+  role: middle
+  line: other
+- title: 'Real-world mortality and the effect of comorbidities on survival in glioblastoma: A database study using computed phenotypes for rapid, reliable patient identification'
+  authors: Wei R, Still MEH, Moor RSF, Qin X, Lyu T, Yan S, He X, Mitchell DA, Shenkman E, Wang H, Guo Y, Bian J, Ghiaseddin AP
+  venue: Neurooncol Adv
+  year: 2026
+  url: https://doi.org/10.1093/noajnl/vdag098
+  type: journal
+  role: middle
+  line: other
+- title: Develop and validate a computable phenotype for identifying alcohol-use disorder patients using structure and unstructured EHR data
+  authors: Dai H, Tapper EB, Zhao L, Scheiffele GD, Li X, Ramon R, He X, Lee YA, Guo J, Bian J
+  venue: Alcohol Alcohol
+  year: 2026
+  url: https://doi.org/10.1093/alcalc/agaf086
+  type: journal
+  role: middle
+  line: phenotype
+- title: Estimation of prevalence of autoimmune diseases in the United States using electronic health record data
+  authors: Abend AH, He I, Bahroos N, Christianakis S, Crew AB, Wise LM, Lipori GP, He X, Murphy SN, Herrick CD, Avasarala J, Weiner MG, Zelko JS, Matute-Arcos E, Abajian M, Payne PRO, Lai AM, Davis HA,
+    Hoberg AA, Ortman CE, Gode AD, Taylor BW, Osinski KI, Di Florio DN, Rose NR, Miller FW, Tsokos GC, Fairweather D
+  venue: J Clin Invest
+  year: 2025
+  url: https://doi.org/10.1172/jci178722
+  type: journal
+  role: middle
+  line: phenotype
+- title: Enhancing medical coding efficiency through domain-specific fine-tuned large language models
+  authors: Hou Z, Liu H, Bian J, He X, Zhuang Y
+  venue: Npj Health Syst
+  year: 2025
+  url: https://doi.org/10.1038/s44401-025-00018-3
+  type: journal
+  role: middle
+  line: llm
+  selected: 7
+- title: Glycogen drives tumour initiation and progression in lung adenocarcinoma
+  authors: Clarke HA, Hawkinson TR, Shedlock CJ, Medina T, Ribas RA, Wu L, Liu Z, Ma X, Xia Y, Huang Y, He X, Chang JE, Young LEA, Juras JA, Buoncristiani MD, James AN, Rushin A, Merritt ME, Mestas A, Lamb
+    JF, Manauis EC, Austin GL, Chen L, Singh PK, Bian J, Vander Kooi CW, Evers BM, Brainson CF, Allison DB, Gentry MS, Sun RC
+  venue: Nat Metab
+  year: 2025
+  url: https://doi.org/10.1038/s42255-025-01243-8
+  type: journal
+  role: middle
+  line: other
+- title: 'Enhancing Patient-Trial Matching With Large Language Models: A Scoping Review of Emerging Applications and Approaches'
+  authors: Chen H, Li X, He X, Chen A, McGill J, Webber EC, Xu H, Liu M, Bian J
+  venue: JCO Clin Cancer Inform
+  year: 2025
+  url: https://doi.org/10.1200/cci-25-00071
+  type: journal
+  role: middle
+  line: llm
+- title: 'Mobile Health App for Adolescent Asthma Self-Management: Development and Usability Study of the Pulmonary Education and Knowledge Mobile Asthma Action Plan'
+  authors: He X, Bian J, Berlinski A, Guo Y, Simmons AL, Marshall SA, Greene CJ, Brown RH, Turner J, Perry TT
+  venue: JMIR Form Res
+  year: 2025
+  url: https://doi.org/10.2196/64212
+  type: journal
+  role: first
+  line: other
+- title: 'GatorCLR: Personalized predictions of patient outcomes on electronic health records using self-supervised contrastive graph representation'
+  authors: Liu Y, Zhang Z, Mi J, Pan S, Chen T, Guo Y, He X, Bian J
+  venue: J Biomed Inform
+  year: 2025
+  url: https://doi.org/10.1016/j.jbi.2025.104851
+  type: journal
+  role: middle
+  line: other
+- title: 'From image to report: automating lung cancer screening interpretation and reporting with vision-language models'
+  authors: Chang TY, Gou Q, Zhao L, Zhou T, Chen H, Yang D, Ju H, Smith KE, Sun C, Pan J, Huang Y, He X, Zhang X, Xu D, Xu J, Bian J, Chen A
+  venue: J Biomed Inform
+  year: 2025
+  url: https://doi.org/10.1016/j.jbi.2025.104931
+  type: journal
+  role: middle
+  line: llm
+- title: 'Optimizing Strategy for Lung Cancer Screening: From Risk Prediction to Clinical Decision Support'
+  authors: Dai H, Huang Y, He X, Zhou T, Liu Y, Zhang X, Guo Y, Guo J, Bian J
+  venue: JCO Clin Cancer Inform
+  year: 2025
+  url: https://doi.org/10.1200/cci-24-00291
+  type: journal
+  role: middle
+  line: other
+- title: 'COLA-GLM: collaborative one-shot and lossless algorithms of generalized linear models for decentralized observational healthcare data'
+  authors: Wu Q, Reps JM, Li L, Zhang B, Lu Y, Tong J, Zhang D, Lumley T, Brand MT, Van Zandt M, Falconer T, He X, Huang Y, Li H, Yan C, Tang G, Williams AE, Wang F, Bian J, Malin B, Hripcsak G, Schuemie
+    MJ, Lu Y, Drew S, Zhou J, Asch DA, Chen Y
+  venue: NPJ Digit Med
+  year: 2025
+  url: https://doi.org/10.1038/s41746-025-01781-1
+  type: journal
+  role: middle
+  line: tte
+- title: A communication-efficient federated learning algorithm to assess racial disparities in post-transplantation survival time
+  authors: Wang Y, Zhang D, Tong J, He X, Li L, Sun L, Shukla AM, Bian J, Asch DA, Chen Y
+  venue: J Am Med Inform Assoc
+  year: 2025
+  url: https://doi.org/10.1093/jamia/ocaf138
+  type: journal
+  role: middle
+  line: tte
+- title: 'Unlocking efficiency in real-world collaborative studies: a multi-site international study with one-shot lossless GLMM algorithm'
+  authors: Tong J, Reps JM, Luo C, Lu Y, Li L, Ramirez-Anguita JM, Brand MT, DuVall SL, Falconer T, Fuentes AM, He X, Matheny ME, Mayer MA, Patel BK, Simon KR, Suchard MA, Tang G, Viernes B, Williams RD,
+    van Zandt M, Wang F, Bian J, Zhou J, Asch DA, Chen Y
+  venue: NPJ Digit Med
+  year: 2025
+  url: https://doi.org/10.1038/s41746-025-01846-1
+  type: journal
+  role: middle
+  line: tte
+- title: Variational temporal deconfounder network for individualized treatment effect estimation with longitudinal observational data
+  authors: Dai H, Huang Y, Liu Y, He X, Guo J, Prosperi M, Bian J
+  venue: J Biomed Inform
+  year: 2025
+  url: https://doi.org/10.1016/j.jbi.2025.104880
+  type: journal
+  role: middle
+  line: tte
+- title: 'Care coordination and patient safety outcome: a graph-based approach'
+  authors: Chen H, Huang Y, Yin C, He X, Ison RL, Bell LL, Opoku RA, Jiang Z, Guo SJ, Liu M, Tighe PJ, Bian J
+  venue: Npj Health Syst
+  year: 2025
+  url: https://doi.org/10.1038/s44401-025-00020-9
+  type: journal
+  role: middle
+  line: other
+- title: 'Comparing a Guideline-Based Mobile Health Intervention Versus Usual Care for High-Risk Adolescents With Asthma: Protocol of a Randomized Controlled Trial'
+  authors: Perry TT, Turner JH, Berlinski A, Simmons LA, Brown RH, Neal K, Marshall SA, He X, Chung S, Brown A, Spencer Rd HJ, Bian J
+  venue: JMIR Res Protoc
+  year: 2025
+  url: https://doi.org/10.2196/69903
+  type: journal
+  role: middle
+  line: tte
+- title: 'Harmonizing Medicare Claims Data with OMOP: A Validated ETL Pipeline'
+  authors: Lee YA, Lu Y, Bian J, Guo JS, He X
+  venue: AMIA Annual Symposium
+  year: 2025
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12919608/
+  type: proceedings
+  role: senior
+  line: phenotype
+  selected: 3
+- title: Toward Integrating Machine Learning-powered Polysocial Risk Scores into Electronic Health Record Workflows
+  authors: He X, Huang Y, Hu Y, Pappa M, Miller N, Gregory ME, Guo JS, Bian J
+  venue: AMIA Annual Symposium
+  year: 2025
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12919456/
+  type: proceedings
+  role: first
+  line: other
+  selected: 4
+- title: Automating Lung-RADS Categorization And Follow-Up Recommendations Using In-Context Learning With Large Language Models
+  authors: Zhou T, Chen A, Hu Y, Lou X, He X, Huang Y, Hochhegger B, Mehta H, Prosperi M, Guo Y, Bian J
+  venue: AMIA Annual Symposium
+  year: 2025
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12919574/
+  type: proceedings
+  role: middle
+  line: llm
+  selected: 2
+- title: Temporal Ensemble Logic for Integrative Representation of the Entirety of Clinical Trials
+  authors: Li X, Huang Y, Abeysinghe R, Sun Z, Chen H, Li P, He X, Tao S, Tao C, Bian J, Cui L, Zhang GQ
+  venue: LIPIcs
+  year: 2025
+  url: https://doi.org/10.4230/lipics.time.2025.13
+  type: proceedings
+  role: middle
+  line: tte
+- title: Clinical Trial Eligibility Criteria Decomposition and Parsing with Large Language Models
+  authors: Chen H, Qian L, He X, Chen A, Huang Y, Gou Q, Wang Y, Wang Y, Ai X, Zhou Y, Cohen I, Chen Q, Xu H, Bian J
+  venue: MEDINFO
+  year: 2025
+  url: https://doi.org/10.3233/shti250928
+  type: proceedings
+  role: middle
+  line: llm
+  selected: 6
+- title: Transforming the Medicare Claims Data to the OMOP Common Data Model
+  authors: Lee YA, Lu Y, Bian J, Guo J, He X
+  venue: MEDINFO
+  year: 2025
+  url: https://doi.org/10.3233/shti251106
+  type: short
+  role: senior
+  line: phenotype
+- title: Design and development of a machine-learning-driven opioid overdose risk prediction tool integrated in electronic health records in primary care settings
+  authors: Nguyen K, Wilson DL, Diiulio J, Hall B, Militello L, Gellad WF, Harle CA, Lewis M, Schmidt S, Rosenberg EI, Nelson D, He X, Wu Y, Bian J, Staras SAS, Gordon AJ, Cochran J, Kuza C, Yang S, Lo-Ciganic
+    W
+  venue: Bioelectron Med
+  year: 2024
+  url: https://doi.org/10.1186/s42234-024-00156-3
+  type: journal
+  role: middle
+  line: other
+- title: Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports of Lung Cancer Screening Patients Using Transformer Models
+  authors: Yang S, Yang X, Lyu T, Huang JL, Chen A, He X, Braithwaite D, Mehta HJ, Wu Y, Guo Y, Bian J
+  venue: J Healthc Inform Res
+  year: 2024
+  url: https://doi.org/10.1007/s41666-024-00166-5
+  type: journal
+  role: middle
+  line: llm
+- title: Develop and validate a computable phenotype for the identification of Alzheimer’s disease patients using electronic health record data
+  authors: He X, Wei R, Huang Y, Chen Z, Lyu T, Bost S, Tong J, Li L, Zhou Y, Li Z, Guo J, Tang H, Wang F, DeKosky S, Xu H, Chen Y, Zhang R, Xu J, Guo Y, Wu Y, Bian J
+  venue: Alzheimers Dement (Amst)
+  year: 2024
+  url: https://doi.org/10.1002/dad2.12613
+  type: journal
+  role: cofirst
+  line: phenotype
+  selected: 1
+- title: Developing a computable phenotype for glioblastoma
+  authors: Yan S, Melnick K, He X, Lyu T, Moor RSF, Still MEH, Mitchell DA, Shenkman EA, Wang H, Guo Y, Bian J, Ghiaseddin AP
+  venue: Neuro Oncol
+  year: 2024
+  url: https://doi.org/10.1093/neuonc/noad249
+  type: journal
+  role: middle
+  line: phenotype
+- title: Early prediction of Alzheimer’s disease and related dementias using real-world electronic health records
+  authors: Li Q, Yang X, Xu J, Guo Y, He X, Hu H, Lyu T, Marra D, Miller A, Smith G, DeKosky S, Boyce RD, Schliep K, Shenkman E, Maraganore D, Wu Y, Bian J
+  venue: Alzheimers Dement
+  year: 2023
+  url: https://doi.org/10.1002/alz.12967
+  type: journal
+  role: middle
+  line: other
+- title: Methodological Challenges in Spatial and Contextual Exposome-Health Studies
+  authors: Hu H, Liu X, Zheng Y, He X, Hart J, James P, Laden F, Chen Y, Bian J
+  venue: Crit Rev Environ Sci Technol
+  year: 2023
+  url: https://doi.org/10.1080/10643389.2022.2093595
+  type: journal
+  role: middle
+  line: llm
+- title: Assess the documentation of cognitive tests and biomarkers in electronic health records via natural language processing for Alzheimer’s disease and related dementias
+  authors: Chen Z, Zhang H, Yang X, Wu S, He X, Xu J, Guo J, Prosperi M, Wang F, Xu H, Chen Y, Hu H, DeKosky ST, Farrer M, Guo Y, Wu Y, Bian J
+  venue: Int J Med Inform
+  year: 2023
+  url: https://doi.org/10.1016/j.ijmedinf.2022.104973
+  type: journal
+  role: middle
+  line: llm
+- title: Classification of Benign and Malignant Renal Tumors Based on CT Scans and Clinical Data Using Machine Learning Methods
+  authors: Xu J, He X, Shao W, Bian J, Terry R
+  venue: Informatics
+  year: 2023
+  url: https://doi.org/10.3390/informatics10030055
+  type: journal
+  role: middle
+  line: other
+- title: A Computable Phenotype for the Identification of Sexual and Gender Minorities in Electronic Health Records
+  authors: Li Y, He X, Wheldon C, Wu Y, Prosperi M, Shenkman EA, Jaffee MS, Guo J, Wang F, Guo Y, Bian J
+  venue: AMIA Annual Symposium
+  year: 2023
+  type: proceedings
+  role: middle
+  line: phenotype
+- title: 'Unraveling COVID-19: A Large-Scale Characterization of 4.5 Million COVID-19 Cases Using CHARYBDIS'
+  authors: Kostka K, Duarte-Salles T, Prats-Uribe A, Sena AG, Pistillo A, Khalid S, Lai LYH, Golozar A, Alshammari TM, Dawoud DM, Nyberg F, Wilcox AB, Andryc A, Williams A, Ostropolets A, Areia C, Jung
+    CY, Harle CA, Reich CG, Blacketer C, Morales DR, Dorr DA, Burn E, Roel E, Tan EH, Minty E, DeFalco F, de Maeztu G, Lipori G, Alghoul H, Zhu H, Thomas JA, Bian J, Park J, Martínez Roldán J, Posada JD,
+    Banda JM, Horcajada JP, Kohler J, Shah K, Natarajan K, Lynch KE, Liu L, Schilling LM, Recalde M, Spotnitz M, Gong M, Matheny ME, Valveny N, Weiskopf NG, Shah N, Alser O, Casajust P, Park RW, Schuff
+    R, Seager S, DuVall SL, You SC, Song S, Fernández-Bertolín S, Fortin S, Magoc T, Falconer T, Subbian V, Huser V, Ahmed WU, Carter W, Guan Y, Galvan Y, He X, Rijnbeek PR, Hripcsak G, Ryan PB, Suchard
+    MA, Prieto-Alhambra D
+  venue: Clin Epidemiol
+  year: 2022
+  url: https://doi.org/10.2147/clep.s323292
+  type: journal
+  role: middle
+  line: phenotype
+- title: 'Biases in using social media data for public health surveillance: A scoping review'
+  authors: Zhao Y, He X, Feng Z, Bost S, Prosperi M, Wu Y, Guo Y, Bian J
+  venue: Int J Med Inform
+  year: 2022
+  url: https://doi.org/10.1016/j.ijmedinf.2022.104804
+  type: journal
+  role: middle
+  line: other
+- title: A scoping review of semantic integration of health data and information
+  authors: Zhang H, Lyu T, Yin P, Bost S, He X, Guo Y, Prosperi M, Hogan WR, Bian J
+  venue: Int J Med Inform
+  year: 2022
+  url: https://doi.org/10.1016/j.ijmedinf.2022.104834
+  type: journal
+  role: middle
+  line: phenotype
+- title: Impacts of Eligibility Criteria on Trial Participants’ Age in Alzheimer’s Disease Clinical Trials
+  authors: Chen A, Li Q, He X, Jaffee MS, Hogan WR, Wang F, Guo Y, Bian J
+  venue: AMIA Annual Symposium
+  year: 2022
+  type: proceedings
+  role: middle
+  line: tte
+- title: A Preliminary Study of Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports Using Natural Language Processing
+  authors: Yang S, Yang X, Lyu T, He X, Braithwaite D, Mehta HJ, Guo Y, Wu Y, Bian J
+  venue: IEEE ICHI
+  year: 2022
+  url: https://doi.org/10.1109/ichi54592.2022.00125
+  type: short
+  role: middle
+  line: llm
+- title: 'When text simplification is not enough: could a graph-based visualization facilitate consumers’ comprehension of dietary supplement information?'
+  authors: He X, Zhang R, Alpert J, Zhou S, Adam TJ, Raisa A, Peng Y, Zhang H, Guo Y, Bian J
+  venue: JAMIA Open
+  year: 2021
+  url: https://doi.org/10.1093/jamiaopen/ooab026
+  type: journal
+  role: cofirst
+  line: other
+- title: 'Data and Model Biases in Social Media Analyses: A Case Study of COVID-19 Tweets'
+  authors: Zhao Y, Yin P, Li Y, He X, Du J, Tao C, Guo Y, Prosperi M, Veltri P, Yang X, Wu Y, Bian J
+  venue: AMIA Annual Symposium
+  year: 2021
+  type: proceedings
+  role: middle
+  line: other
+- title: Causal inference and counterfactual prediction in machine learning for actionable healthcare
+  authors: Prosperi M, Guo Y, Sperrin M, Koopman JS, Min JS, He X, Rich S, Wang M, Buchan IE, Bian J
+  venue: Nature Machine Intelligence
+  year: 2020
+  url: https://doi.org/10.1038/s42256-020-0197-y
+  type: journal
+  role: middle
+  line: tte
+  selected: 8
+- title: 'Measurement of Semantic Textual Similarity in Clinical Texts: Comparison of Transformer-Based Models'
+  authors: Yang X, He X, Zhang H, Ma Y, Bian J, Wu Y
+  venue: JMIR Med Inform
+  year: 2020
+  url: https://doi.org/10.2196/19735
+  type: journal
+  role: middle
+  line: llm
+- title: Assessing mental health signals among sexual and gender minorities using Twitter data
+  authors: Zhao Y, Guo Y, He X, Wu Y, Yang X, Prosperi M, Jin Y, Bian J
+  venue: Health Informatics J
+  year: 2020
+  url: https://doi.org/10.1177/1460458219839621
+  type: journal
+  role: middle
+  line: other
+- title: User-centered design of a web-based crowdsourcing-integrated semantic text annotation tool for building a mental health knowledge base
+  authors: He X, Zhang H, Bian J
+  venue: J Biomed Inform
+  year: 2020
+  url: https://doi.org/10.1016/j.jbi.2020.103571
+  type: journal
+  role: first
+  line: other
+- title: 'Extracting Family History of Patients From Clinical Narratives: Exploring an End-to-End Solution With Deep Learning Models'
+  authors: Yang X, Zhang H, He X, Bian J, Wu Y
+  venue: JMIR Med Inform
+  year: 2020
+  url: https://doi.org/10.2196/22982
+  type: journal
+  role: middle
+  line: llm
+- title: Developing and Validating a Computable Phenotype for the Identification of Transgender and Gender Nonconforming Individuals and Subgroups
+  authors: Guo Y, He X, Lyu T, Zhang H, Wu Y, Yang X, Chen Z, Markham MJ, Modave F, Xie M, Hogan W, Harle CA, Shenkman EA, Bian J
+  venue: AMIA Annual Symposium
+  year: 2020
+  type: proceedings
+  role: cofirst
+  line: phenotype
+- title: Understanding Perceptions and Attitudes toward Genetically Modified Organisms on Twitter
+  authors: Jun I, Zhao Y, He X, Gollakner R, Court C, Munoz O, Bian J, Capua I, Prosperi M
+  venue: Social Media & Society
+  year: 2020
+  url: https://doi.org/10.1145/3400806.3400839
+  type: proceedings
+  role: middle
+  line: other
+- title: 'ALOHA: developing an interactive graph-based visualization for dietary supplement knowledge graph through user-centered design'
+  authors: He X, Zhang R, Rizvi R, Vasilakes J, Yang X, Guo Y, He Z, Prosperi M, Huo J, Alpert J, Bian J
+  venue: BMC Med Inform Decis Mak
+  year: 2019
+  url: https://doi.org/10.1186/s12911-019-0857-1
+  type: journal
+  role: cofirst
+  line: other
+- title: 'STAT: A Web-based Semantic Text Annotation Tool to Assist Building Mental Health Knowledge Base'
+  authors: He X, Zhang H, Yang X, Guo Y, Bian J
+  venue: IEEE ICHI
+  year: 2019
+  url: https://doi.org/10.1109/ichi.2019.8904503
+  type: proceedings
+  role: first
+  line: other
+- title: 'Aero: An Evidence-based Semantic Web Knowledge Base of Cancer Behavioral Risk Factors'
+  authors: Zhang H, He X, Harrison T, Bian J
+  venue: SEPDA Workshop
+  year: 2019
+  url: https://ceur-ws.org/Vol-2427/SEPDA_2019_paper_13.pdf
+  type: proceedings
+  role: middle
+  line: other
+- title: Towards an Interactive Visualization for Dietary Supplement Knowledge Graph
+  authors: He X, Bian J
+  venue: IEEE ICHI
+  year: 2019
+  url: https://doi.org/10.1109/ichi.2019.8904618
+  type: short
+  role: first
+  line: other
+- title: 'Computable Eligibility Criteria through Ontology-driven Data Access: A Case Study of Hepatitis C Virus Trials'
+  authors: Zhang H, He Z, He X, Guo Y, Nelson DR, Modave F, Wu Y, Hogan W, Prosperi M, Bian J
+  venue: AMIA Annual Symposium
+  year: 2018
+  type: proceedings
+  role: middle
+  line: tte
+- title: Prototyping an Interactive Visualization of Dietary Supplement Knowledge Graph
+  authors: He X, Zhang R, Rizvi R, Vasilakes J, Yang X, Guo Y, He Z, Prosperi M, Bian J
+  venue: IEEE BIBM
+  year: 2018
+  url: https://doi.org/10.1109/bibm.2018.8621340
+  type: proceedings
+  role: first
+  line: other

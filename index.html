@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xing He – Indiana University School of Medicine</title>
+<meta name="description" content="Xing He, Assistant Professor of Biostatistics and Health Data Science at Indiana University School of Medicine. Works between clinical data operations and research: LLM chart review, trial matching, and real-world evidence. Recruiting postdocs, PhD students, research engineers, and interns.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Xing He</h1>
+  <p class="title">Health informatician · Indiana University School of Medicine · Regenstrief Institute</p>
+  <div class="meta">
+    <a href="mailto:hexing@iu.edu">hexing@iu.edu</a><span class="sep">/</span><a href="https://orcid.org/0000-0003-0290-8058">ORCID</a><span class="sep">/</span><a href="https://github.com/YeechingTiger">GitHub</a>
+  </div>
+</header>
+
+<p>I work half in operations and half in research. As Faculty Lead for Strategic Data Science Infrastructure at
+<a href="https://www.regenstrief.org/data-services/">Regenstrief Data Services</a>, I help run the data and NLP services that
+researchers and health systems in Indiana use every day. As an assistant professor in the
+<a href="https://medicine.iu.edu/biostatistics">Department of Biostatistics and Health Data Science</a> at the IU School of Medicine,
+I study the problems those services keep running into.</p>
+
+<p>The pattern is the same each time: find where real clinical data work gets stuck, pick the research method that actually fits,
+and put the result back into the service so the next request is faster and more trustworthy.</p>
+
+<p class="recruit"><b>Recruiting.</b> Postdocs, PhD students, research engineers, and interns. <a href="#join">Details below.</a></p>
+
+<h2>What I work on</h2>
+<p>Everything below runs on the <a href="https://www.regenstrief.org/">Indiana Network for Patient Care</a>,
+one of the largest health information exchanges in the US.</p>
+
+<h3>Reading the chart at scale</h3>
+<div class="row loop">
+  <div class="d">Stuck</div><div>Many studies need facts that live only in clinical notes. Today that means manual chart review: slow, costly, and hard to audit.</div>
+  <div class="d">Method</div><div>LLM agents that read longitudinal notes like an expert abstractor, cite the evidence behind each answer, and are evaluated against expert review so a correct answer can be told from a lucky one.</div>
+  <div class="d">Back</div><div>Shapes the NLP-as-a-Service and note de-identification offerings I lead at Regenstrief Data Services.</div>
+</div>
+<p class="refs"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919574/">Lung-RADS with LLMs</a> ·
+<a href="https://doi.org/10.1038/s44401-025-00018-3">LLMs for medical coding</a> ·
+<a href="https://github.com/YeechingTiger/agentic-chart-review-with-semantica">Auditable chart review (code)</a></p>
+
+<h3>Finding the right patients for a trial</h3>
+<div class="row loop">
+  <div class="d">Stuck</div><div>Screening patients for clinical trials is mostly manual, one trial at a time, and eligibility criteria are written for people, not computers.</div>
+  <div class="d">Method</div><div>LLMs that turn free-text criteria into computable rules, structured screening first and notes second to keep cost down, and ontology-aware retrieval for cohort discovery.</div>
+  <div class="d">Back</div><div>A trial-matching pipeline we are building with IU Health for trial recruitment across Indiana.</div>
+</div>
+<p class="refs"><a href="https://doi.org/10.3233/shti250928">Eligibility criteria parsing</a> ·
+<a href="https://doi.org/10.1200/cci-25-00071">LLMs for trial matching</a></p>
+
+<h3>Making real-world data fit for evidence</h3>
+<div class="row loop">
+  <div class="d">Stuck</div><div>EHR and claims data were not built for research. Every study cleans them again, and few check whether the data can answer the question at all.</div>
+  <div class="d">Method</div><div>OMOP pipelines, validated computable phenotypes, data-quality checks, and target trial emulation for drug safety and effectiveness.</div>
+  <div class="d">Back</div><div>Shared INPC-OMOP data and reusable phenotypes at Regenstrief, used by studies in Alzheimer's disease, multiple sclerosis, and cancer.</div>
+</div>
+<p class="refs"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919608/">Medicare claims to OMOP</a> ·
+<a href="https://doi.org/10.1093/jamiaopen/ooag102">Data quality for TTE</a> ·
+<a href="https://doi.org/10.1002/dad2.12613">Alzheimer's disease phenotype</a></p>
+
+<p style="margin-top:22px">I have worked this way since the University of Florida, where I earned my Ph.D. in biomedical informatics
+and M.S. in computer science, and later served as Research Assistant Professor and Assistant Director of Research Infrastructure at UF Health.
+I also hold an adjunct appointment in Purdue's <a href="https://engineering.purdue.edu/BME">Weldon School of Biomedical Engineering</a>.</p>
+
+<h2 id="join">Join</h2>
+<p>The problems in this group have real users waiting on the answer. You will work next to the people who run the data services
+and the clinicians who use them, ship methods that get used, and write first-author papers about them.</p>
+<ul>
+  <li><b>Postdocs</b> in clinical NLP and LLMs: agentic chart review, trial matching, and evaluation against expert review.</li>
+  <li><b>PhD students</b> in informatics and health AI. Email me before you apply; I will help you find the IU program that fits.</li>
+  <li><b>Research engineers</b> who like building things that stay running: OMOP and INPC pipelines, LLM services, evaluation tooling.</li>
+  <li><b>Interns</b> (undergraduate, master's, visiting) for a semester or summer.</li>
+</ul>
+<p>Email <a href="mailto:hexing@iu.edu?subject=%5BJoin%5D%20">hexing@iu.edu</a> with the subject “[Join] Position – Name”,
+your CV, a few sentences on what you want to work on, and one paper or code sample you are proud of.</p>
+
+<h2>News</h2>
+<div class="row">
+  <div class="d">Aug 2026</div><div>IU OSI pilot award for ontology-aware retrieval for cohort discovery on INPC-OMOP.</div>
+  <div class="d">2026</div><div>Data quality for target trial emulation, in <i>JAMIA Open</i>.</div>
+  <div class="d">Nov 2025</div><div>Three papers at AMIA 2025: LLMs for Lung-RADS, polysocial risk in EHR workflows, Medicare claims to OMOP.</div>
+  <div class="d">Feb 2025</div><div>Joined IU School of Medicine and the Regenstrief Institute.</div>
+</div>
+
+<!-- PUBS:START -->
+<h2>Selected publications</h2>
+
+<div class="pub" data-led="yes"><a href="https://doi.org/10.1002/dad2.12613">Develop and validate a computable phenotype for the identification of Alzheimer’s disease patients using electronic health record data</a><br>
+<span class="me">He X*</span>, Wei R, Huang Y, Chen Z, Lyu T, Bost S, …, Bian J<br><span class="v">Alzheimers Dement (Amst), 2024</span></div>
+
+<div class="pub" data-led="no"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919574/">Automating Lung-RADS Categorization And Follow-Up Recommendations Using In-Context Learning With Large Language Models</a><br>
+Zhou T, Chen A, Hu Y, Lou X, <span class="me">He X</span>, Huang Y, Hochhegger B, Mehta H, Prosperi M, Guo Y, Bian J<br><span class="v">AMIA Annual Symposium, 2025</span></div>
+
+<div class="pub" data-led="yes"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919608/">Harmonizing Medicare Claims Data with OMOP: A Validated ETL Pipeline</a><br>
+Lee YA, Lu Y, Bian J, Guo JS, <span class="me">He X†</span><br><span class="v">AMIA Annual Symposium, 2025</span></div>
+
+<div class="pub" data-led="yes"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12919456/">Toward Integrating Machine Learning-powered Polysocial Risk Scores into Electronic Health Record Workflows</a><br>
+<span class="me">He X</span>, Huang Y, Hu Y, Pappa M, Miller N, Gregory ME, Guo JS, Bian J<br><span class="v">AMIA Annual Symposium, 2025</span></div>
+
+<div class="pub" data-led="no"><a href="https://doi.org/10.1093/jamiaopen/ooag102">Assessing the quality of electronic health record data and the claims linked data for target trial emulation studies</a><br>
+Lee YA, Lu Y, Morris EJ, <span class="me">He X</span>, Winterstein AG, Henriksen C, Bian J, Guo J<br><span class="v">JAMIA Open, 2026</span></div>
+
+<div class="pub" data-led="no"><a href="https://doi.org/10.3233/shti250928">Clinical Trial Eligibility Criteria Decomposition and Parsing with Large Language Models</a><br>
+Chen H, Qian L, <span class="me">He X</span>, Chen A, Huang Y, Gou Q, …, Bian J<br><span class="v">MEDINFO, 2025</span></div>
+
+<div class="pub" data-led="no"><a href="https://doi.org/10.1038/s44401-025-00018-3">Enhancing medical coding efficiency through domain-specific fine-tuned large language models</a><br>
+Hou Z, Liu H, Bian J, <span class="me">He X</span>, Zhuang Y<br><span class="v">Npj Health Syst, 2025</span></div>
+
+<div class="pub" data-led="no"><a href="https://doi.org/10.1038/s42256-020-0197-y">Causal inference and counterfactual prediction in machine learning for actionable healthcare</a><br>
+Prosperi M, Guo Y, Sperrin M, Koopman JS, Min JS, <span class="me">He X</span>, Rich S, Wang M, Buchan IE, Bian J<br><span class="v">Nature Machine Intelligence, 2020</span></div>
+
+<p class="refs" style="margin-top:8px">* co-first author, † senior author. <a href="publications.html">All 59 publications →</a></p>
+<!-- PUBS:END -->
+
+<footer>Updated November 2026</footer>
+</main>
+</body>
+</html>
