@@ -13,6 +13,8 @@
   type: short
   role: middle
   line: rwe
+  summary: Builds an LLM framework that guides target trial emulation protocol design with retrieval, evidence extraction, and human choices; on five vaccine studies it covered 96.2% of published design
+    choices.
 - title: Hyperglycosylation is a metabolic driver of Alzheimer’s disease
   authors: Hawkinson TR, Liu Z, Ribas RA, Medina T, Nielsen RS, Clarke HA, Ma X, Mueller AC, Plasencia AF, Sheer AL, Simpson ST, Soto CM, Sudderth J, Cai F, Cantrell AR, Colpaert MG, Shedlock CJ, Wu L,
     Young LEA, Kooser DD, Chen L, Ryan AM, Quinones S, Son J, Azadi P, Deberardinis RJ, Prokop S, Allison D, Yang S, Chen H, Huang Y, He X, Alonge KM, Guo J, Guo Y, Bian J, Vander Kooi CW, Gentry MS, Sun
@@ -24,6 +26,8 @@
   role: middle
   line: rwe
   image: images/thumbs/hyperglycosylation-is-a-metabolic-driver-of-alzhei.jpg
+  summary: Shows in mouse models, human brain tissue, and health records that excess sugar-tagging of brain molecules (hyperglycosylation) drives Alzheimer's disease, and that glucosamine supplements are
+    linked to faster decline.
 - title: Identifying Alzheimer’s Disease Progression Subphenotypes Via a Graph-based Framework Using Electronic Health Records
   authors: Huang Y, Xu J, Fan Z, Hu Y, He X, Chen A, Liu Y, Yin R, Guo J, DeKosky ST, Jaffee M, Zhou M, Su C, Wang F, Guo Y, Bian J
   venue: J Healthc Inform Res
@@ -33,6 +37,7 @@
   role: middle
   line: foundations
   image: images/thumbs/identifying-alzheimer-s-disease-progression-subphe.jpg
+  summary: Uses a graph neural network and time-series clustering on health records of 2,525 patients to find four distinct paths from mild cognitive impairment to Alzheimer's disease.
 - title: 'The spatial and contextual exposome and subtypes of hypertensive disorders of pregnancy: a double machine learning-based analysis'
   authors: Hu H, Leiser CL, He X, Hart JE, Laden F, Tao C, Bian J
   venue: Exposome
@@ -42,6 +47,8 @@
   role: middle
   line: workflow
   image: images/thumbs/the-spatial-and-contextual-exposome-and-subtypes-o.jpg
+  summary: Links 245 neighborhood and environmental measures to 686,412 Florida pregnancies with causal machine learning, finding exposures such as air toxicants, weather, and crime tied to gestational
+    hypertension but not preeclampsia.
 - title: Real-World Effectiveness and Safety of GLP-1 Receptor Agonists Among Patients With Weight Recurrence After Bariatric Surgery
   authors: Yuce T, Radwan RM, Lee YA, Holler E, Dai H, He X, Huang Y, Guo Y, Bian J, Guo J
   venue: Obesity (Silver Spring)
@@ -50,6 +57,7 @@
   type: journal
   role: middle
   line: rwe
+  summary: Finds in Florida records that patients who regained weight after bariatric surgery and started GLP-1 drugs lost more of the regained weight at 12 months (14.8% vs 8.1%) without more adverse events.
 - title: Adaptation of a fair individualized polysocial risk score for hospitalization risk prediction
   authors: Gou Q, Hu Y, He X, Gregory ME, LeLaurin JH, Salloum RG, Bian J, Guo J, Huang Y
   venue: JAMIA Open
@@ -58,6 +66,8 @@
   type: journal
   role: middle
   line: workflow
+  summary: Adapts a machine learning risk score built from social factors like food insecurity and finances, first made for diabetes, to predict one-year hospitalization in 17,857 general adult patients,
+    with moderate accuracy.
 - title: Assessing the quality of electronic health record data and the claims linked data for target trial emulation studies
   authors: Lee YA, Lu Y, Morris EJ, He X, Winterstein AG, Henriksen C, Bian J, Guo J
   venue: JAMIA Open
@@ -78,6 +88,8 @@
   role: middle
   line: workflow
   image: images/thumbs/co-designing-an-outpatient-clinical-decision-suppo.jpg
+  summary: Interviews nine dementia care providers and staff to co-design a decision support tool that flags patients at high social risk for hospitalization; they found it helpful and suggested auto-filled
+    inputs.
 - title: Feasibility of identifying factors related to Alzheimer’s disease and related dementia in real-world data
   authors: Huang Y, Li Q, Chen A, Li Y, Chuang YN, Hu X, Guo SJ, He X, Pang Y, Zhou J, Wu Y, Guo Y, Bian J
   venue: JAMIA Open
@@ -86,6 +98,8 @@
   type: journal
   role: middle
   line: rwe
+  summary: Reviews the literature to catalog 401 risk and protective factors for Alzheimer's and related dementias, builds an interactive knowledge graph of them, and checks which can be found in health
+    records.
 - title: 'Real-world mortality and the effect of comorbidities on survival in glioblastoma: A database study using computed phenotypes for rapid, reliable patient identification'
   authors: Wei R, Still MEH, Moor RSF, Qin X, Lyu T, Yan S, He X, Mitchell DA, Shenkman E, Wang H, Guo Y, Bian J, Ghiaseddin AP
   venue: Neurooncol Adv
@@ -95,6 +109,7 @@
   role: middle
   line: rwe
   image: images/thumbs/real-world-mortality-and-the-effect-of-comorbiditi.jpg
+  summary: Uses a computable phenotype to find about 2,000 glioblastoma patients in Florida health data and shows which comorbidities, such as diabetes and liver disease, predict shorter survival.
 - title: Develop and validate a computable phenotype for identifying alcohol-use disorder patients using structure and unstructured EHR data
   authors: Dai H, Tapper EB, Zhao L, Scheiffele GD, Li X, Ramon R, He X, Lee YA, Guo J, Bian J
   venue: Alcohol Alcohol
@@ -103,6 +118,8 @@
   type: journal
   role: middle
   line: foundations
+  summary: Develops and validates rules combining billing codes, medications, and clinical-note keywords to identify alcohol use disorder in health records, reaching an F1 of 0.87 and outperforming code-only
+    approaches.
 - title: Estimation of prevalence of autoimmune diseases in the United States using electronic health record data
   authors: Abend AH, He I, Bahroos N, Christianakis S, Crew AB, Wise LM, Lipori GP, He X, Murphy SN, Herrick CD, Avasarala J, Weiner MG, Zelko JS, Matute-Arcos E, Abajian M, Payne PRO, Lai AM, Davis HA,
     Hoberg AA, Ortman CE, Gode AD, Taylor BW, Osinski KI, Di Florio DN, Rose NR, Miller FW, Tsokos GC, Fairweather D
@@ -113,6 +130,7 @@
   role: middle
   line: rwe
   image: images/thumbs/estimation-of-prevalence-of-autoimmune-diseases-in.jpg
+  summary: Estimates from health records of six large US medical systems that over 15 million Americans, 4.6% of the population, have been diagnosed with at least one autoimmune disease.
 - title: Enhancing medical coding efficiency through domain-specific fine-tuned large language models
   authors: Hou Z, Liu H, Bian J, He X, Zhuang Y
   venue: Npj Health Syst
@@ -133,6 +151,8 @@
   type: journal
   role: middle
   line: rwe
+  summary: Shows with spatial analysis of human lung tumors and experimental models that glycogen buildup drives lung adenocarcinoma progression, and that genetically blocking glycogen production suppresses
+    tumor growth.
 - title: 'Enhancing Patient-Trial Matching With Large Language Models: A Scoping Review of Emerging Applications and Approaches'
   authors: Chen H, Li X, He X, Chen A, McGill J, Webber EC, Xu H, Liu M, Bian J
   venue: JCO Clin Cancer Inform
@@ -142,6 +162,8 @@
   role: middle
   line: trials
   image: images/thumbs/enhancing-patient-trial-matching-with-large-langua.jpg
+  summary: Reviews 24 studies that use large language models to match patients with clinical trials, mapping their designs and noting accuracy gains alongside problems with variability, interpretability,
+    and synthetic data.
 - title: 'Mobile Health App for Adolescent Asthma Self-Management: Development and Usability Study of the Pulmonary Education and Knowledge Mobile Asthma Action Plan'
   authors: He X, Bian J, Berlinski A, Guo Y, Simmons AL, Marshall SA, Greene CJ, Brown RH, Turner J, Perry TT
   venue: JMIR Form Res
@@ -151,6 +173,7 @@
   role: first
   line: workflow
   image: images/thumbs/mobile-health-app-for-adolescent-asthma-self-manag.jpg
+  summary: Designs a personalized asthma self-management app for adolescents and tests its usability with 13 teens, who gave it a mean System Usability Scale score of 83 out of 100.
 - title: 'GatorCLR: Personalized predictions of patient outcomes on electronic health records using self-supervised contrastive graph representation'
   authors: Liu Y, Zhang Z, Mi J, Pan S, Chen T, Guo Y, He X, Bian J
   venue: J Biomed Inform
@@ -159,6 +182,7 @@
   type: journal
   role: middle
   line: workflow
+  summary: A self-supervised learning model that represents patients and their similarities as graphs built from longitudinal health records to predict patient outcomes across multiple clinical tasks.
 - title: 'From image to report: automating lung cancer screening interpretation and reporting with vision-language models'
   authors: Chang TY, Gou Q, Zhao L, Zhou T, Chen H, Yang D, Ju H, Smith KE, Sun C, Pan J, Huang Y, He X, Zhang X, Xu D, Xu J, Bian J, Chen A
   venue: J Biomed Inform
@@ -167,6 +191,7 @@
   type: journal
   role: middle
   line: nlp
+  summary: Builds a multimodal AI system that finds lung nodules in low-dose CT scans, describes them, and drafts guideline-based screening reports, plus clinical accuracy metrics for judging such reports.
 - title: 'Optimizing Strategy for Lung Cancer Screening: From Risk Prediction to Clinical Decision Support'
   authors: Dai H, Huang Y, He X, Zhou T, Liu Y, Zhang X, Guo Y, Guo J, Bian J
   venue: JCO Clin Cancer Inform
@@ -175,6 +200,7 @@
   type: journal
   role: middle
   line: workflow
+  summary: Combines machine learning and causal inference on real-world health data to predict lung cancer risk and estimate screening benefit, averaging 9.5% risk reduction in men and 12% in women.
 - title: 'COLA-GLM: collaborative one-shot and lossless algorithms of generalized linear models for decentralized observational healthcare data'
   authors: Wu Q, Reps JM, Li L, Zhang B, Lu Y, Tong J, Zhang D, Lumley T, Brand MT, Van Zandt M, Falconer T, He X, Huang Y, Li H, Yan C, Tang G, Williams AE, Wang F, Bian J, Malin B, Hripcsak G, Schuemie
     MJ, Lu Y, Drew S, Zhou J, Asch DA, Chen Y
@@ -185,6 +211,8 @@
   role: middle
   line: rwe
   image: images/thumbs/cola-glm-collaborative-one-shot-and-lossless-algor.jpg
+  summary: A federated method for fitting regression models across hospitals that exactly matches pooled-data results with one round of summary-data exchange, with an encrypted version, tested on influenza
+    and COVID-19 data.
 - title: A communication-efficient federated learning algorithm to assess racial disparities in post-transplantation survival time
   authors: Wang Y, Zhang D, Tong J, He X, Li L, Sun L, Shukla AM, Bian J, Asch DA, Chen Y
   venue: J Am Med Inform Assoc
@@ -193,6 +221,7 @@
   type: journal
   role: middle
   line: rwe
+  summary: Develops a federated algorithm to test whether where kidney transplant patients receive care explains Black-White survival gaps; in 39,043 patients across 73 centers, it found no such evidence.
 - title: 'Unlocking efficiency in real-world collaborative studies: a multi-site international study with one-shot lossless GLMM algorithm'
   authors: Tong J, Reps JM, Luo C, Lu Y, Li L, Ramirez-Anguita JM, Brand MT, DuVall SL, Falconer T, Fuentes AM, He X, Matheny ME, Mayer MA, Patel BK, Simon KR, Suchard MA, Tang G, Viernes B, Williams RD,
     van Zandt M, Wang F, Bian J, Zhou J, Asch DA, Chen Y
@@ -203,6 +232,8 @@
   role: middle
   line: rwe
   image: images/thumbs/unlocking-efficiency-in-real-world-collaborative-s.jpg
+  summary: Extends one-shot, lossless federated analysis to mixed-effects models, matching pooled-data estimates from summary statistics alone, and applies it to COVID-19 mortality risk factors across eight
+    international databases.
 - title: Variational temporal deconfounder network for individualized treatment effect estimation with longitudinal observational data
   authors: Dai H, Huang Y, Liu Y, He X, Guo J, Prosperi M, Bian J
   venue: J Biomed Inform
@@ -211,6 +242,8 @@
   type: journal
   role: middle
   line: rwe
+  summary: A deep generative model that estimates individualized treatment effects from longitudinal health records while accounting for hidden, time-varying confounders, tested on synthetic, intensive
+    care, and Alzheimer's cohort data.
 - title: 'Care coordination and patient safety outcome: a graph-based approach'
   authors: Chen H, Huang Y, Yin C, He X, Ison RL, Bell LL, Opoku RA, Jiang Z, Guo SJ, Liu M, Tighe PJ, Bian J
   venue: Npj Health Syst
@@ -220,6 +253,7 @@
   role: middle
   line: workflow
   image: images/thumbs/care-coordination-and-patient-safety-outcome-a-gra.jpg
+  summary: A graph-based model of patients, provider teams, and patient transfers that predicts prolonged hospital stay and mortality after surgery in 102,768 patients with AUC above 0.90.
 - title: 'Comparing a Guideline-Based Mobile Health Intervention Versus Usual Care for High-Risk Adolescents With Asthma: Protocol of a Randomized Controlled Trial'
   authors: Perry TT, Turner JH, Berlinski A, Simmons LA, Brown RH, Neal K, Marshall SA, He X, Chung S, Brown A, Spencer Rd HJ, Bian J
   venue: JMIR Res Protoc
@@ -229,6 +263,8 @@
   role: middle
   line: workflow
   image: images/thumbs/comparing-a-guideline-based-mobile-health-interven.jpg
+  summary: Describes the protocol of a three-arm randomized trial in 432 adolescents with uncontrolled asthma comparing a personalized app, with or without sharing data with their doctors, against enhanced
+    usual care.
 - title: 'Harmonizing Medicare Claims Data with OMOP: A Validated ETL Pipeline'
   authors: Lee YA, Lu Y, Bian J, Guo JS, He X
   venue: AMIA Annual Symposium
@@ -268,6 +304,8 @@
   role: middle
   line: trials
   image: images/thumbs/temporal-ensemble-logic-for-integrative-representa.jpg
+  summary: Introduces a formal temporal logic that can represent entire clinical trial protocols, including eligibility, treatments, follow-up, outcomes, and their timing, to support automated reasoning
+    and trial simulation.
 - title: Clinical Trial Eligibility Criteria Decomposition and Parsing with Large Language Models
   authors: Chen H, Qian L, He X, Chen A, Huang Y, Gou Q, Wang Y, Wang Y, Ai X, Zhou Y, Cohen I, Chen Q, Xu H, Bian J
   venue: MEDINFO
@@ -286,6 +324,7 @@
   type: short
   role: senior
   line: foundations
+  summary: Builds a pipeline that converts Medicare claims data into the OMOP common data model for standardized research use, passing 99.2% of automated data quality checks.
 - title: Design and development of a machine-learning-driven opioid overdose risk prediction tool integrated in electronic health records in primary care settings
   authors: Nguyen K, Wilson DL, Diiulio J, Hall B, Militello L, Gellad WF, Harle CA, Lewis M, Schmidt S, Rosenberg EI, Nelson D, He X, Wu Y, Bian J, Staras SAS, Gordon AJ, Cochran J, Kuza C, Yang S, Lo-Ciganic
     W
@@ -296,6 +335,7 @@
   role: middle
   line: workflow
   image: images/thumbs/design-and-development-of-a-machine-learning-drive.jpg
+  summary: Designs a machine learning opioid overdose risk alert built into the health record for primary care, refining it through feedback and usability sessions with 13 physicians.
 - title: Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports of Lung Cancer Screening Patients Using Transformer Models
   authors: Yang S, Yang X, Lyu T, Huang JL, Chen A, He X, Braithwaite D, Mehta HJ, Wu Y, Guo Y, Bian J
   venue: J Healthc Inform Res
@@ -304,6 +344,8 @@
   type: journal
   role: middle
   line: nlp
+  summary: Compares eight transformer language models for extracting lung nodules and their characteristics from radiology reports of lung cancer screening patients, with the full system reaching an overall
+    F1 of 0.89.
 - title: Develop and validate a computable phenotype for the identification of Alzheimer’s disease patients using electronic health record data
   authors: He X, Wei R, Huang Y, Chen Z, Lyu T, Bost S, Tong J, Li L, Zhou Y, Li Z, Guo J, Tang H, Wang F, DeKosky S, Xu H, Chen Y, Zhang R, Xu J, Guo Y, Wu Y, Bian J
   venue: Alzheimers Dement (Amst)
@@ -323,6 +365,7 @@
   type: journal
   role: middle
   line: foundations
+  summary: Develops a rule combining diagnosis codes and clinical-note keywords to identify glioblastoma patients in health records, refined through six rounds of chart review and reaching an F1 of 0.82.
 - title: Early prediction of Alzheimer’s disease and related dementias using real-world electronic health records
   authors: Li Q, Yang X, Xu J, Guo Y, He X, Hu H, Lyu T, Marra D, Miller A, Smith G, DeKosky S, Boyce RD, Schliep K, Shenkman E, Maraganore D, Wu Y, Bian J
   venue: Alzheimers Dement
@@ -331,6 +374,7 @@
   type: journal
   role: middle
   line: rwe
+  summary: Trains machine learning models on Florida health records of over one million patients to predict Alzheimer's and related dementias up to five years before diagnosis, with AUCs from 0.85 to 0.94.
 - title: Methodological Challenges in Spatial and Contextual Exposome-Health Studies
   authors: Hu H, Liu X, Zheng Y, He X, Hart J, James P, Laden F, Chen Y, Bian J
   venue: Crit Rev Environ Sci Technol
@@ -339,6 +383,8 @@
   type: journal
   role: middle
   line: workflow
+  summary: Reviews data resources, linkage methods, and statistical and machine learning tools for studying how place-based environmental and social exposures affect health, and identifies key methodological
+    gaps.
 - title: Assess the documentation of cognitive tests and biomarkers in electronic health records via natural language processing for Alzheimer’s disease and related dementias
   authors: Chen Z, Zhang H, Yang X, Wu S, He X, Xu J, Guo J, Prosperi M, Wang F, Xu H, Chen Y, Hu H, DeKosky ST, Farrer M, Guo Y, Wu Y, Bian J
   venue: Int J Med Inform
@@ -347,6 +393,7 @@
   type: journal
   role: middle
   line: nlp
+  summary: Builds a natural language processing pipeline that extracts cognitive test scores and biomarkers from clinical notes of 48,912 dementia patients with an F1 of 0.91, and maps scores to severity.
 - title: Classification of Benign and Malignant Renal Tumors Based on CT Scans and Clinical Data Using Machine Learning Methods
   authors: Xu J, He X, Shao W, Bian J, Terry R
   venue: Informatics
@@ -355,6 +402,7 @@
   type: journal
   role: middle
   line: workflow
+  summary: Uses machine learning on CT scans and clinical data to classify kidney tumors as benign or malignant.
 - title: A Computable Phenotype for the Identification of Sexual and Gender Minorities in Electronic Health Records
   authors: Li Y, He X, Wheldon C, Wu Y, Prosperi M, Shenkman EA, Jaffee MS, Guo J, Wang F, Guo Y, Bian J
   venue: AMIA Annual Symposium
@@ -362,6 +410,8 @@
   type: proceedings
   role: middle
   line: foundations
+  summary: Develops and validates an algorithm using structured data and clinical notes to identify lesbian, gay, and bisexual patients in health records, finding this group younger and more burdened by
+    mental health distress.
 - title: 'Unraveling COVID-19: A Large-Scale Characterization of 4.5 Million COVID-19 Cases Using CHARYBDIS'
   authors: Kostka K, Duarte-Salles T, Prats-Uribe A, Sena AG, Pistillo A, Khalid S, Lai LYH, Golozar A, Alshammari TM, Dawoud DM, Nyberg F, Wilcox AB, Andryc A, Williams A, Ostropolets A, Areia C, Jung
     CY, Harle CA, Reich CG, Blacketer C, Morales DR, Dorr DA, Burn E, Roel E, Tan EH, Minty E, DeFalco F, de Maeztu G, Lipori G, Alghoul H, Zhu H, Thomas JA, Bian J, Park J, Martínez Roldán J, Posada JD,
@@ -375,6 +425,7 @@
   role: middle
   line: rwe
   image: images/thumbs/unraveling-covid-19-a-large-scale-characterization.jpg
+  summary: Characterizes 4.5 million COVID-19 patients across health databases in the US, Europe, and Asia, describing more than 22,000 features including comorbidities, symptoms, treatments, and outcomes.
 - title: 'Biases in using social media data for public health surveillance: A scoping review'
   authors: Zhao Y, He X, Feng Z, Bost S, Prosperi M, Wu Y, Guo Y, Bian J
   venue: Int J Med Inform
@@ -383,6 +434,7 @@
   type: journal
   role: middle
   line: workflow
+  summary: Reviews 20 studies that assessed or reduced biases, such as demographic, keyword, and platform bias, when using social media data for public health surveillance, finding such checks rare.
 - title: A scoping review of semantic integration of health data and information
   authors: Zhang H, Lyu T, Yin P, Bost S, He X, Guo Y, Prosperi M, Hogan WR, Bian J
   venue: Int J Med Inform
@@ -391,6 +443,7 @@
   type: journal
   role: middle
   line: foundations
+  summary: Reviews 87 studies from 2009 to 2021 on semantic integration of health data across sources, summarizing methods and noting reliance on single-level data and sparse process documentation.
 - title: Impacts of Eligibility Criteria on Trial Participants’ Age in Alzheimer’s Disease Clinical Trials
   authors: Chen A, Li Q, He X, Jaffee MS, Hogan WR, Wang F, Guo Y, Bian J
   venue: AMIA Annual Symposium
@@ -398,6 +451,7 @@
   type: proceedings
   role: middle
   line: trials
+  summary: Uses machine learning and SHAP explanations to show which eligibility criteria in Alzheimer's clinical trials exclude older patients, identifying 30 to 34 such study traits.
 - title: A Preliminary Study of Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports Using Natural Language Processing
   authors: Yang S, Yang X, Lyu T, He X, Braithwaite D, Mehta HJ, Guo Y, Wu Y, Bian J
   venue: IEEE ICHI
@@ -406,6 +460,7 @@
   type: short
   role: middle
   line: nlp
+  summary: Tests three transformer models for extracting lung nodules and their characteristics from radiology reports of lung screening patients; the best reached an F1 of 0.93.
 - title: 'When text simplification is not enough: could a graph-based visualization facilitate consumers’ comprehension of dietary supplement information?'
   authors: He X, Zhang R, Alpert J, Zhou S, Adam TJ, Raisa A, Peng Y, Zhang H, Guo Y, Bian J
   venue: JAMIA Open
@@ -415,6 +470,7 @@
   role: cofirst
   line: foundations
   image: images/thumbs/when-text-simplification-is-not-enough-could-a-gra.jpg
+  summary: Tests four ways of presenting dietary supplement information with 690 crowdsourced readers, finding manual text simplification best for comprehension and a graph-based visualization second.
 - title: 'Data and Model Biases in Social Media Analyses: A Case Study of COVID-19 Tweets'
   authors: Zhao Y, Yin P, Li Y, He X, Du J, Tao C, Guo Y, Prosperi M, Veltri P, Yang X, Wu Y, Bian J
   venue: AMIA Annual Symposium
@@ -422,6 +478,7 @@
   type: proceedings
   role: middle
   line: workflow
+  summary: Compares six Twitter data collection methods and three machine learning models on COVID-19 tweets to measure collection bias and how sensitive model results are to it.
 - title: Causal inference and counterfactual prediction in machine learning for actionable healthcare
   authors: Prosperi M, Guo Y, Sperrin M, Koopman JS, Min JS, He X, Rich S, Wang M, Buchan IE, Bian J
   venue: Nature Machine Intelligence
@@ -441,6 +498,7 @@
   role: middle
   line: nlp
   image: images/thumbs/measurement-of-semantic-textual-similarity-in-clin.jpg
+  summary: Compares BERT, XLNet, and RoBERTa models for measuring how similar two clinical sentences are, placing third in a 2019 shared task and later reaching a Pearson correlation of 0.9065.
 - title: Assessing mental health signals among sexual and gender minorities using Twitter data
   authors: Zhao Y, Guo Y, He X, Wu Y, Yang X, Prosperi M, Jin Y, Bian J
   venue: Health Informatics J
@@ -449,6 +507,7 @@
   type: journal
   role: middle
   line: workflow
+  summary: Identifies sexual and gender minority users on Twitter from self-identifying tweets and analyzes their mental health signals, finding more negative emotion but a shrinking gap after 2015.
 - title: User-centered design of a web-based crowdsourcing-integrated semantic text annotation tool for building a mental health knowledge base
   authors: He X, Zhang H, Bian J
   venue: J Biomed Inform
@@ -457,6 +516,8 @@
   type: journal
   role: first
   line: nlp
+  summary: Refines a web annotation tool for crowdsourcing mental health knowledge base curation through four user-centered design rounds, and finds crowd workers annotate faster than experts with moderate
+    accuracy.
 - title: 'Extracting Family History of Patients From Clinical Narratives: Exploring an End-to-End Solution With Deep Learning Models'
   authors: Yang X, Zhang H, He X, Bian J, Wu Y
   venue: JMIR Med Inform
@@ -466,6 +527,7 @@
   role: middle
   line: nlp
   image: images/thumbs/extracting-family-history-of-patients-from-clinica.jpg
+  summary: Builds deep learning systems that extract patients' family medical history from clinical notes, ranking third of 21 teams in a 2019 shared task and improving afterward with transformer models.
 - title: Developing and Validating a Computable Phenotype for the Identification of Transgender and Gender Nonconforming Individuals and Subgroups
   authors: Guo Y, He X, Lyu T, Zhang H, Wu Y, Yang X, Chen Z, Markham MJ, Modave F, Xie M, Hogan W, Harle CA, Shenkman EA, Bian J
   venue: AMIA Annual Symposium
@@ -473,6 +535,7 @@
   type: proceedings
   role: cofirst
   line: foundations
+  summary: Develops and validates an algorithm using structured data and clinical notes to identify transgender and gender nonconforming patients and their natal sex, reaching a perfect F1 on test data.
 - title: Understanding Perceptions and Attitudes toward Genetically Modified Organisms on Twitter
   authors: Jun I, Zhao Y, He X, Gollakner R, Court C, Munoz O, Bian J, Capua I, Prosperi M
   venue: Social Media & Society
@@ -481,6 +544,7 @@
   type: proceedings
   role: middle
   line: workflow
+  summary: Examines public perceptions and attitudes toward genetically modified organisms as expressed in posts on the social media platform Twitter.
 - title: 'ALOHA: developing an interactive graph-based visualization for dietary supplement knowledge graph through user-centered design'
   authors: He X, Zhang R, Rizvi R, Vasilakes J, Yang X, Guo Y, He Z, Prosperi M, Huo J, Alpert J, Bian J
   venue: BMC Med Inform Decis Mak
@@ -490,6 +554,7 @@
   role: cofirst
   line: foundations
   image: images/thumbs/aloha-developing-an-interactive-graph-based-visual.jpg
+  summary: Improves ALOHA, an interactive graph visualization for browsing dietary supplement information, through two user-centered design rounds; usability scores dipped and then rose to 64.4 out of 100.
 - title: 'STAT: A Web-based Semantic Text Annotation Tool to Assist Building Mental Health Knowledge Base'
   authors: He X, Zhang H, Yang X, Guo Y, Bian J
   venue: IEEE ICHI
@@ -498,6 +563,7 @@
   type: proceedings
   role: first
   line: nlp
+  summary: Designs a web-based annotation tool with real-time suggestions and quality checks so crowdsourced laypeople can help extract information for a mental health knowledge base.
 - title: 'Aero: An Evidence-based Semantic Web Knowledge Base of Cancer Behavioral Risk Factors'
   authors: Zhang H, He X, Harrison T, Bian J
   venue: SEPDA Workshop
@@ -506,6 +572,7 @@
   type: proceedings
   role: middle
   line: foundations
+  summary: Describes Aero, an evidence-based knowledge base of behavioral risk factors for cancer built with semantic web technologies.
 - title: Towards an Interactive Visualization for Dietary Supplement Knowledge Graph
   authors: He X, Bian J
   venue: IEEE ICHI
@@ -514,6 +581,7 @@
   type: short
   role: first
   line: foundations
+  summary: Describes work toward an interactive visualization that lets users explore a knowledge graph of dietary supplement information.
 - title: 'Computable Eligibility Criteria through Ontology-driven Data Access: A Case Study of Hepatitis C Virus Trials'
   authors: Zhang H, He Z, He X, Guo Y, Nelson DR, Modave F, Wu Y, Hogan W, Prosperi M, Bian J
   venue: AMIA Annual Symposium
@@ -521,6 +589,7 @@
   type: proceedings
   role: middle
   line: trials
+  summary: Analyzes eligibility criteria from 77 hepatitis C trials and builds an ontology-based prototype that turns criteria into queries runnable against clinical data to find potential participants.
 - title: Prototyping an Interactive Visualization of Dietary Supplement Knowledge Graph
   authors: He X, Zhang R, Rizvi R, Vasilakes J, Yang X, Guo Y, He Z, Prosperi M, Bian J
   venue: IEEE BIBM
@@ -529,3 +598,4 @@
   type: proceedings
   role: first
   line: foundations
+  summary: Prototypes ALOHA, a web app with interactive graph visualization for browsing dietary supplement knowledge, and finds marginal usability scores but strong agreement that such a tool is needed.
