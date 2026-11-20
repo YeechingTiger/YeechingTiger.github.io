@@ -48,7 +48,7 @@ for y, ps in by_year.items():
     full += [pub(p) for p in ps]
 
 block = f"""<h2 id="publications">Publications</h2>
-<p class="note">Selected · * co-first author, † senior author · full list also on <a href="https://orcid.org/0000-0003-0290-8058">ORCID</a></p>
+<p class="note">Selected · * co-first author, † senior author · full list also on <a href="https://scholar.google.com/citations?user=LN0Utm0AAAAJ&amp;hl=en">Google Scholar</a> and <a href="https://orcid.org/0000-0003-0290-8058">ORCID</a></p>
 
 {chr(10).join(pub(p, summary=True) for p in sel)}
 
