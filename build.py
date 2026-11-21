@@ -41,7 +41,7 @@ def pub(p):
     glabel = f' <span class="gl g-{p.get("line")}">{gname}</span>' if gname else ""
     body = [f'<div class="t">{title}</div>',
             f'<div class="a">{authors(p)}</div>',
-            f'<div class="v">{esc(p["venue"])}, {p["year"]}{tag}{glabel}</div>']
+            f'<div class="v">{esc(p["venue"])}, {p["year"]}{tag}</div>']
     if p.get("summary"):
         body.append(f'<p class="s">{esc(p["summary"])}</p>')
     if p.get("url"):
